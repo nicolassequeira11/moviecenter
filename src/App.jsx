@@ -9,6 +9,7 @@ import { CarteleraMovies } from './pages/CarteleraMovies';
 import { Oscars } from './pages/Oscars';
 import { CarteleraTeatro } from './pages/CarteleraTeatro';
 import { FAQ } from './pages/FAQ';
+import { Promos } from './pages/Promos';
 
 export const App = () => {
   const initialMovieSelected = JSON.parse(localStorage.getItem('movieSelected')) || [];
@@ -74,6 +75,12 @@ export const App = () => {
         <Route
           path="/faq"
           element={<FAQ 
+            setIsNavClick={setIsNavClick}
+          />}
+        />
+        <Route
+          path="/promos"
+          element={<Promos 
             setIsNavClick={setIsNavClick}
           />}
         />

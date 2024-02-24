@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Footer } from "./components/Footer";
 import { MyAccordion } from "../components/Accordion";
 import HelpIcon from '@mui/icons-material/Help';

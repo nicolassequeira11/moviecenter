@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Itaú Volar y U25", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-itau.svg",
+    "text":"Con tu tarjeta Itaú débito Volar y U25 tu acompañante es nuestro invitado en nuestras salas de cine 2D, 3D y 4D todos los días. Comprando esta promoción, accedés a 2x1 de pop y refresco regular, con la opción de cambiar un pop por maní con chocolate. En Teatro Movie y Undermovie, jueves y viernes, tu acompañante es nuestro invitado. Las promociones de Teatro tienen cupos limitados. Se podrá acceder a dos beneficios por tarjeta. No aplica a funciones de Eventos Especiales. Promoción válida durante vacaciones de julio."
+  },
+  {
+    "title": "Itau Pocket", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-itau.svg",
+    "text":"Con tu tarjeta Itaú Pocket tu acompañante es nuestro invitado en nuestras salas de cine 2D y 3D de lunes a miércoles. Esta promoción no cuenta con promoción de pop y refresco. Promoción valida únicamente para las compras por Movie.com.uy y no es válida durante vacaciones de julio."
+  },
+  {
+    "title": "Itaú Azul", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-itau.svg",
+    "text":"Con tu tarjeta Itaú Azul tu acompañante es nuestro invitado en nuestras salas de cine 2D y 3D de lunes a miércoles. Esta promoción no cuenta con promoción de pop y refresco. Promoción no válida durante vacaciones de julio."
+  },
+  {
+    "title": "Millas Volar Itaú", 
+    "subtitle": "Canje de millas", 
+    "img": "promos/logo-itau.svg",
+    "text":"Presentando el canje de millas realizado en la plataforma del banco en la boletería del complejo, podrás acceder a canjear millas por entradas 2D, 3D y pop y refresco regular. Promoción válida durante vacaciones de julio."
+  },
+  {
+    "title": "OCA Mastercard", 
+    "subtitle": "Mitad de precio + metros en entradas y Movie Regular", 
+    "img": "promos/logo-oca.svg",
+    "text":"Compra de entradas de cine únicamente: Versión 2D $215 + 330 metros – Versión 3D $230 + 350 metros – Versión 4D $345 + 520 metros. Promoción valida todos los días (incluyendo el periodo de vacaciones de julio). No aplica para Eventos Especiales Compra de entradas de cine + Movie regular (Pop +Refresco): Versión 2D $365 + 780 metros – Versión 3D $380 + 800 metros – Versión 4D $495 + 970 metros. Promoción válida todos los días (incluyendo el periodo de vacaciones de julio). No aplica para Eventos Especiales."
+  },
+  {
+    "title": "OCA Blue", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-oca.svg",
+    "text":"Con tu tarjeta de débito OCA Blue tu acompañante es nuestro invitado en salas de cine 2D y 3D todos los días. Comprando esta promoción, accedés a 2x1 en pop y refresco mediano. Promoción no valida durante vacaciones de julio."
+  },
+  {
+    "title": "Antel", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-antel.svg",
+    "text":"Los clientes Antel, pueden obtener un 2x1 en entradas 2D y 3D todos los días, en cualquiera de nuestros complejos (no aplica para 4D). Marcá *789*2#SEND, recibirás un código de 6 dígitos para presentar en boletería y obtener el beneficio. No válido para funciones de Eventos Especiales. Promoción válida durante vacaciones de julio."
+  },
+  {
+    "title": "Montevideo Shopping", 
+    "subtitle": "Comprador Frecuente/Tremendos", 
+    "img": "promos/logo-mvdshopping.svg",
+    "text":"Presentando la tarjeta de Comprador Frecuente de lunes a jueves en Movie Montevideo, tu acompañante puede disfrutar gratis de cualquiera de las películas 2D asignadas para dicho beneficio (consultar las películas en montevideoshopping.com.uy) . Los lunes tu acompañante paga la mitad en funciones 4D. Presentando la tarjeta Tremendos en boletería de Movie Montevideo tenés un 2x1 los jueves en todas las películas 2D y 3D. Para acceder al beneficio debe ser gestionado por el titular de la tarjeta. No válido para funciones de Eventos Especiales."
+  },
+  {
+    "title": "Nuevocentro Shopping", 
+    "subtitle": "Club Nuevocentro", 
+    "img": "promos/logo-nuevocentro.png",
+    "text":"Presentando tu tarjeta Club Nuevocentro tenés un 2x1 en entradas todos los miércoles. No válido para funciones de Eventos Especiales."
+  },
+  {
+    "title": "Portones Shopping", 
+    "subtitle": "Benefits", 
+    "img": "promos/logo-portonesshopping.png",
+    "text":"Presentando la tarjeta Benefits los martes en Movie Portones, tu acompañante es nuestro invitado en funciones 2D y 3D. Los martes tu acompañante paga la mitad en funciones 4D. No válido para funciones de Eventos Especiales."
+  },
+  {
+    "title": "Punta Carretas Shopping", 
+    "subtitle": "Amigos", 
+    "img": "promos/logo-puntacarretas.svg",
+    "text":"Presentando tu tarjeta Amigos de Punta Carretas: 2x1 en entradas de cine 2D y 3D de lunes a miércoles. No válido para funciones de Eventos Especiales."
+  },
+  {
+    "title": "El País", 
+    "subtitle": "Club El País", 
+    "img": "promos/logo-elpais.svg",
+    "text":"Presentando tu tarjeta Club El País en nuestras boleterías tu acompañante es nuestro invitado en funciones 2D y 3D. Promoción válida únicamente en boletería para el titular de la tarjeta presentando la misma y CI (una promoción por tarjeta). No válido para funciones de Eventos Especiales. Consultar en boletería o por whatsapp los espectáculos de Undermovie y Teatro que cuentan con esta promoción."
+  },
+  {
+    "title": "Montevideo Libre", 
+    "subtitle": "Beneficio para estudiantes", 
+    "img": "promos/logo-mvdlibre.png",
+    "text":"Presentando la cédula de identidad en el complejo NuevoCentro de lunes a miércoles, se accede a 1 entrada 2D. Cupos limitados por día."
+  },
+  {
+    "title": "Mc Plus", 
+    "subtitle": "2x1", 
+    "img": "promos/logo-mcdonald.png",
+    "text":"Presentando la tarjeta GOintegro de McDonald's junto a tu CI accedés a un (1) beneficio 2X1 en entradas 2D. No válido para funciones de Eventos Especiales."
+  }
+]

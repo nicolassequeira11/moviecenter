@@ -11,6 +11,8 @@ export const Oscars = ({setIsNavClick}) => {
   }, [])
 
   return(
+
+    
     <div className="bg-black max-md:pt-14">
       <div className="w-6/12 max-md:w-11/12 mx-auto">
         <img src={oscarsBanner} className="mx-auto" />
