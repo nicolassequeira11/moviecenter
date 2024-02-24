@@ -85,7 +85,7 @@ export const Navbar = ({handleNavClick, isNavClick}) => {
         >
           <img src={Oscarimg} className="h-10 max-md:p-2 flex object-contain mx-auto" />
         </Link>
-        <div className="w-1/4 max-md:mx-0 pe-5 justify-end text-white my-auto flex font-semibold cursor-pointer">
+        <div className="w-1/4 max-md:mx-0 max-md:text-sm max-md:me-3 pe-5 max-md:pe-0 justify-end text-white my-auto flex font-semibold cursor-pointer">
           Iniciar sesión
         </div>
         <div className={`bg-gray1 absolute top-[100%] h-[100vh] text-white 

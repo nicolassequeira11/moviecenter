@@ -39,7 +39,7 @@ export const Home = ({handleMovieSelected, setIsNavClick}) =>{
   ]
 
   return(
-    <div className="bg-gray1 text-white">
+    <div className="bg-gray1 max-md:pt-10 text-white">
 
       {/* Carousel Banners */}
       <div className="max-md:hidden">
@@ -65,7 +65,7 @@ export const Home = ({handleMovieSelected, setIsNavClick}) =>{
           <PrincipalButton 
             text="Ver Cartelera"
             rounded="rounded-full"
-            width="max-md:w-full"
+            width="max-md:w-full max-md:text-lg"
             onClick={()=> handleData("Cartelera", "/cartelera")}
             background="bg-gray3 hover:bg-darkpink hover:bg-opacity-60"
             handleMovieSelected={handleMovieSelected} 
@@ -85,7 +85,7 @@ export const Home = ({handleMovieSelected, setIsNavClick}) =>{
           <PrincipalButton 
             text="Ver Cartelera"
             rounded="rounded-full"
-            width="max-md:w-full"
+            width="max-md:w-full max-md:text-lg"
             onClick={()=> handleData("Teatro", "/teatro")}
             background="bg-gray3 hover:bg-darkpink hover:bg-opacity-50"
             handleMovieSelected={handleMovieSelected} 

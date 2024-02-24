@@ -51,13 +51,13 @@ export const Movies = ({ handleChangeMovies, handleMovieSelected }) => {
   ];
 
   return (
-    <div className="pt-5 pb-10">
+    <div className="py-5">
       <div className="w-11/12 justify-between flex mx-auto flex-wrap">
-        <h2 className="text-white flex py-5 text-4xl max-md:w-11/12">
+        <h2 className="text-white flex py-5 text-4xl max-md:text-3xl max-md:mx-auto">
           <LocalMoviesIcon className="my-auto scale-125 me-2" />
           Cartelera
         </h2>
-        <div className="my-auto max-md:pb-3 max-md:w-full mx-auto w-1/4 justify-around flex">
+        <div className="my-auto max-md:pb-5 max-md:w-full mx-auto w-1/4 justify-around flex">
           {buttons.map((item, index) => (
             <div className="max-md:w-1/5 flex justify-center">
               <PrincipalButton
@@ -80,7 +80,7 @@ export const Movies = ({ handleChangeMovies, handleMovieSelected }) => {
             </div>
           ))}
         </div>
-        <div className="my-auto justify-center max-md:pb-3 flex max-md:w-full">
+        <div className="my-auto justify-center max-md:pb-5 flex max-md:w-full">
           <div>
             <PrincipalButton
               text="Cartelera"

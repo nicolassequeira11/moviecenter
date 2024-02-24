@@ -19,7 +19,7 @@ export const ModalTrailer = ({children}) => {
           backdrop: "bg-gradient-to-t from-pink-700 to-zinc-900/10 backdrop-opacity-20"
         }}
       >
-        <ModalContent className="m-auto max-md:mt-20">
+        <ModalContent className="m-auto max-md:mt-20 text-transparent">
           {(onClose) => (
             <>
               <ModalBody>

@@ -39,9 +39,9 @@ export const Teatro = ({handleMovieSelected}) => {
   };
 
   return (
-    <div className="pt-5 pb-10">
+    <div className="py-5">
       <div className="w-11/12 justify-between flex mx-auto flex-wrap">
-        <h2 className="text-white flex py-5 text-4xl max-md:w-11/12">
+        <h2 className="text-white flex py-5 max-md:pb-0 text-4xl max-md:text-3xl max-md:mx-auto">
           <TheaterComedyIcon className="my-auto scale-125 me-2" />
           Teatro
         </h2>

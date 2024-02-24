@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { LayoutCartelera } from "./components/LayoutCartelera";
 
-export const CarteleraMovies = ({dataArray, setIsNavClick}) => {
+export const CarteleraMovies = ({dataArray, setIsNavClick, handleMovieSelected}) => {
   
   useEffect(() => {
     setIsNavClick(false);
@@ -12,6 +12,7 @@ export const CarteleraMovies = ({dataArray, setIsNavClick}) => {
       <LayoutCartelera 
         dataArray={dataArray}
         title="Cartelera"
+        handleMovieSelected={handleMovieSelected}
       />
     </div>
   )

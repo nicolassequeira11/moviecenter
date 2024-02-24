@@ -40,7 +40,7 @@ export const LayoutCartelera = ({dataArray, handleMovieSelected, title}) => {
                       rounded="rounded-full"
                       shadow="shadow-xl"
                       onClick={() => handleMovieSelected(item)}
-                      width="max-md:w-full w-fit mx-auto justify-center flex mt-5"
+                      width="max-md:w-full w-fit mx-auto justify-center flex mt-5 max-md:text-lg"
                       background="bg-gray3 hover:bg-darkpink hover:bg-opacity-60"
                     />
                   </Link>

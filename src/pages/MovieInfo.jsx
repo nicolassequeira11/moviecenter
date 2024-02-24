@@ -21,7 +21,7 @@ export const MovieInfo = ({ movieSelected }) => {
             <ModalTrailer
               children={
                 <iframe
-                  className="h-[30rem]"
+                  className="h-[30rem] max-md:h-[20rem] rounded-lg"
                   src={movieSelected.trailer}
                   title="YouTube video player"
                   frameborder="0"
@@ -103,7 +103,7 @@ export const MovieInfo = ({ movieSelected }) => {
           </div>
 
           {/* Schedule */}
-          <div className="text-gray-200 w-full mx-auto border-t-2 border-darkpink">
+          <div className="text-gray-200 w-full mx-auto border-t-2 border-darkpink max-md:border-none">
             <h2 className="text-white flex py-5 text-4xl max-md:w-11/12 max-md:mx-auto max-md:justify-center">
               <ScheduleIcon className="my-auto scale-125 me-2" />
               Cartelera
@@ -113,7 +113,7 @@ export const MovieInfo = ({ movieSelected }) => {
                 <div key={index} className="w-1/4 my-1 max-md:w-full">
                   <p className="font-semibold text-xl">{locationItem.site}</p>
                   {locationItem.time.map((timeItem, index) => (
-                    <div key={index} className="w-full my-3">
+                    <div key={index} className="w-full my-3 max-md:text-xl">
                       <PrincipalButton
                         text={timeItem}
                         rounded="rounded-full"
