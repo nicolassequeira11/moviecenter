@@ -1,0 +1,156 @@
+[{
+    "name": "Teatro",
+    "list": [
+      {
+        "title": "El juego: Inicios",
+        "img": "./src/assets/teatro/el-juego-inicios.jpg",
+        "banner": "./src/assets/teatro/el-juego-inicios-banner.jpg",
+        "calificate":"Sin Calificar",
+        "duration": "1h 10min",
+        "category": "Terror",
+        "price": "$820",
+        "director": "Fran Ruiz Barlett. Productor General: Diego Sorondo",
+        "actors": "Calendaria de la Cruz, Joaquón Diano, Juan Calvo, Melanie Moreira, Octavio Tellechea, Rodrigo Figueredo",
+        "description": "Porque toda historia de terror, tiene un comienzo. Es 1950 y cinco amigos del colegio se juntan en una veterinaria abandonada a jugar por primera vez a la Ouija. La última gran inundación del pueblo hizo destrozos en el lugar. Antonio, a quien lo rodean una cantidad de acontecimientos familiares trágicos y extraños, es quien lleva el tablero y el único que sabe jugar. El primer problema se presenta cuando Matilda llega acompañada por su hermano menor, a quien su madre le pidió que cuide, no era lo acordado. Por otro lado, Antonio es claro con sus amigos: la única manera de jugar es hacerlo seriamente y parece que no todos lo entienden. Todo cambia cuando el tablero comienza a hablar y queda claro que es mucho más que un juego y ya no hay vuelta atrás. Recomendamos puntualidad debido a que por el tenor de la obra no se podrá ingresar a la sala una vez que la misma haya comenzado.",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["21:30"]}
+        ]
+      },
+      {
+        "title": "El gaucho influencer: Zanguango de verano",
+        "img": "./src/assets/teatro/zanguango.jpg",
+        "banner": "./src/assets/teatro/zanguango-banner.jpg",
+        "calificate":"Apta +12",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$670",
+        "director": "Producción General: Ernesto Muniz",
+        "actors": "El Gaucho Influencer",
+        "description": "Después de un 2023 lleno de shows por todo el país, de armar cusquera por los rincones de la patria y de mucho hablar por teléfono, el Gaucho Influencer se toma unas vacaciones en alpargatas. Vuelve el Gaucho al Movie con lo mejor de sus shows en 80 minutos de pura risa. Zanguango de verano!",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["21:00"]}
+        ]        
+      },
+      {
+        "title": "Psicopata: Lo que no te mata te entretiene",
+        "img": "./src/assets/teatro/psicopata.jpg",
+        "banner": "./src/assets/teatro/psicopata-banner.jpg",
+        "calificate":"Sin Calificar",
+        "duration": "1h 10min",
+        "category": "Unipersonal",
+        "price": "$670",
+        "director": "Autor: Fernando Schmidt. Director: Fernando Toja",
+        "actors": "Álvaro Armand Ugón",
+        "description": "Un asesino serial busca llevar su vida y sus muertes a una plataforma de streaming, donde se encuentra con profesionales igual de fríos, calculadores y narcisistas. El reincidente ganador del Premio Florencio, Álvaro Armand Ugón, dirigido por el requerido Fernando Toja, en estos cuentos de humor, de locura y de muerte, perpetrados a sangre fría por Fernando Schmidt. Todos somos indecentes, hasta que se demuestre lo contrario.",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["21:00"]}
+        ]       
+      },
+      {
+        "title": "Germán Medina es Inseguro",
+        "img": "./src/assets/teatro/inseguro.jpg",
+        "banner": "./src/assets/teatro/inseguro-banner.jpg",
+        "calificate":"Apta +12",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$790",
+        "director": "No hay información.",
+        "actors": "Germán Medina",
+        "description": "Una vez más, Germán Medina nos propone despojarnos de los prejuicios y reírnos de nuestras propias miserias. En tiempos donde nos obligan a estar seguros de todo, Germán nos invita a una nueva terapia, y en este caso pone el foco en las más diversas inseguridades que nos atormentan.",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["20:30"]}
+        ]
+      },
+      {
+        "title": "Memorias del mar",
+        "img": "./src/assets/teatro/memorias-del-mar.jpg",
+        "banner": "./src/assets/teatro/memorias-del-mar-banner.jpg",
+        "calificate":"Sin Calificar",
+        "duration": "1h 20min",
+        "category": "Unipersonal",
+        "price": "$670",
+        "director": "No hay información.",
+        "actors": "Nestor Ganduglia",
+        "description": "¿Qué ves cuando estás frente al mar? Unos encuentran paz, inmensidad o amenaza. Y a lo largo de milenios, los pueblos han visto monstruos, sirenas, barcos fantasmas, milagros y horrores, poesía y misterio. Historias fascinantes que transgreden el orden del tiempo, desconcertantes relatos marineros, pescadores testigos de lo imposible. Un paseo por siglos de leyendas, mitos y relatos mágicos que revivirás cada vez que mires al mar.",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["20:00"]}
+        ]
+      },
+      {
+        "title": "Bajo terapia",
+        "img": "./src/assets/teatro/bajo-terapia.jpg",
+        "banner": "./src/assets/teatro/bajo-terapia-banner.jpg",
+        "calificate":"Apta +12",
+        "duration": "1h 20min",
+        "category": ["Comedia", "Drama"],
+        "price": "$790",
+        "director": "Álvaro Ahunchain. Productor General: Diego Sorondo, Rusito González",
+        "actors": "Adriana Da Silva, Catalina Ferrand, Coco Echagüe, Leonardo Lorenzo, Luciana Acuña",
+        "description": "Tres parejas acuden a terapia para tratar sus conflictos, pero se encontrarán con una sesión más intensa y novedosa de lo esperado. La psicóloga no está presente y dejó sobres con consignas que las parejas tendrán que abordar y analizar entre todos. Cada sobre tiene nuevas e ingeniosas propuestas que transforman la sesión en un caos desopilante.",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["21:30"]}
+        ]
+      },
+      {
+        "title": "¿Y quién es el normal?",
+        "img": "./src/assets/teatro/quien-es-el-normal.jpg",
+        "banner": "./src/assets/teatro/quien-es-el-normal-banner.jpg",
+        "calificate":"Apta +12",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$670",
+        "director": "No hay información.",
+        "actors": "Diego Dominguez, Hernán Prieto",
+        "description": "¡Bienvenidos al show ¿Y quién es el normal? con La Diega y Hernán Prieto! Prepárense para una noche llena de risas mientras exploramos las cosas que nos hacen únicos y diferentes de una manera divertida y entretenida. Hay personas que cuando caminan evitan pisar las líneas de las baldosas, otras que revisan hasta cinco veces si han desenchufado la plancha, y algunas que no soportan dejar el volumen en número impar. Incluso hay gente que hace las tres cosas. ¡Hablaremos de eso y mucho más! Hernán y La Diega te llevarán en un viaje cómico que te hará reír y reflexionar sobre las locuras que todos tenemos. Así que relajate y preparate para una noche llena de risas con ¿Y quién es el normal?",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["23:15"]}
+        ]
+      },
+      {
+        "title": "Mamá luchona",
+        "img": "./src/assets/teatro/mama-luchona.jpg",
+        "banner": "./src/assets/teatro/mama-luchona-banner.jpg",
+        "calificate":"Sin Calificar",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$670",
+        "director": "No hay información.",
+        "actors": "Laurita, Yisela Paola",
+        "description": "Yipio estrena nuevo show, MAMÁ LUCHONA la frase tan trillada y bastardeada que esconde atrás todas las peripecias que pasan las mujeres maternando. Madre de una adolescente cuenta cómo vive la maternidad con humor y la picardía que la caracteriza. La luchadora siempre necesita una entrenadora de lujo, y que más lujo que tener a Laurita Madafaker, madre y abuela de la vieja escuela Un show donde te vas a reír y te vas a sentir identificada tanto como madre o como hije. Y además vas a acompañar a esta madre en una lucha constante de mantener viva y feliz a una adolescente quinceañera que sueña con conocer Disney",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["23:15"]}
+        ]
+      },
+      {
+        "title": "Sinverguenzas",
+        "img": "./src/assets/teatro/sinverguenzas.jpg",
+        "banner": "./src/assets/teatro/sinverguenzas-banner.jpg",
+        "calificate":"Apta +12",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$1800",
+        "director": "Diego Rinaldi",
+        "actors": "El Cone Quiroga, Alejandro Cupitó, Benjamín Alfonso, Carna, Juan Pablo Palomino, Tucu Lopéz",
+        "description": "Vuelve Sinvergüenzas….un grupo de amigos, una crisis y una oportunidad. Lole está al borde de cometer una locura cuando a¿sus amigos y compañeros de toda la vida truncan su destino, lo que los llevará a desnudar no sólo su alma. Sinvergüenzas, la versión local de la obra, “Ladies Night” escrita por dos de los mas exitosos dramaturgos y guionistas de Nueva Zelanda: Stephen Sinclair y Anthony McCarten es la adaptación al teatro del famoso film “The Full Monty”",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["21:30"]}
+        ]
+      },
+      {
+        "title": "Segundo tiempo: Uruguay vs Ghana",
+        "img": "./src/assets/teatro/segundo-tiempo.jpg",
+        "banner": "./src/assets/teatro/segundo-tiempo-banner.jpg",
+        "calificate":"Sin Calificar",
+        "duration": "1h 20min",
+        "category": "Humor",
+        "price": "$790",
+        "director": "Yoni Kurlender",
+        "actors": "Florencia Infante, Leo Pacella, Manuela Da Silveira, Rusito González",
+        "description": "Mundial de Sudáfrica. 2 de Junio de 2010. Uruguay pierde 1 a 0 con Ghana. El segundo tiempo está por comenzar y 4 personajes, como cualquiera de nosotros, aguardan expectantes que ocurra el milagro. Un telón que se abre, un relator que narra en tiempo real y una pasión imposible de explicar. ¡Que arranque el partido nomás! ¡Que comience el espectáculo!”",
+        "location": [
+          {"site": "Movie Montevideo", "time": ["20:30"]}
+        ]
+      }
+    ]
+  }
+]
