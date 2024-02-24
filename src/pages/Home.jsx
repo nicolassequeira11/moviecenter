@@ -28,14 +28,14 @@ export const Home = ({handleMovieSelected, setIsNavClick}) =>{
   }
 
   const banners = [
-    {name:"Oscars 2024", img:"./src/assets/banner1.jpg"},
-    {name:"La Sociedad de la Nieve", img:"./src/assets/banner2.jpg"},
-    {name:"Madame Web", img:"./src/assets/banner3.jpg"},
-    {name:"Demon Slayer", img:"./src/assets/banner4.jpg"},
-    {name:"Chicas Pesadas", img:"./src/assets/banner5.jpg"},
-    {name:"El Niño y la Garza", img:"./src/assets/banner6.jpg"},
-    {name:"Pobres Criaturas", img:"./src/assets/banner7.jpg"},
-    {name:"Bob Marley La Leyenda", img:"./src/assets/banner8.jpg"}
+    {name:"Oscars 2024", img:"./banner1.jpg"},
+    {name:"La Sociedad de la Nieve", img:"./banner2.jpg"},
+    {name:"Madame Web", img:"./banner3.jpg"},
+    {name:"Demon Slayer", img:"./banner4.jpg"},
+    {name:"Chicas Pesadas", img:"./banner5.jpg"},
+    {name:"El Niño y la Garza", img:"./banner6.jpg"},
+    {name:"Pobres Criaturas", img:"./banner7.jpg"},
+    {name:"Bob Marley La Leyenda", img:"./banner8.jpg"}
   ]
 
   return(

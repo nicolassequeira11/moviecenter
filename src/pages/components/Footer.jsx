@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoOversize from "../../assets/logo-oversize.png";
-import MovieVivilo from "../../assets/movie-vivilo.png";
-import LogoNS from "../../assets/logo-ns.png";
+import LogoOversize from "/logo-oversize.png";
+import MovieVivilo from "/movie-vivilo.png";
+import LogoNS from "/logo-ns.png";
 
 import XIcon from "@mui/icons-material/X";
 import FacebookIcon from "@mui/icons-material/Facebook";

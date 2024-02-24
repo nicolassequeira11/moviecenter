@@ -18,8 +18,8 @@
         "director": "Harou Sotozaki",
         "actors": "No hay información",
         "description": "Tanjiro se somete a un riguroso entrenamiento con el Hashira de Piedra, Himejima, en su búsqueda por convertirse en un Hashira. Mientras tanto, Muzan sigue buscando a Nezuko y Ubuyashiki.",
-        "img": "./public/cartelera/demon-slayer.jpg",
-        "banner": "./public/cartelera/demon-slayer-banner.jpg",
+        "img": "cartelera/demon-slayer.jpg",
+        "banner": "cartelera/demon-slayer-banner.jpg",
         "trailer": "https://www.youtube.com/embed/YqXUM6XxRiM?si=LdlWRqJOT3-bHsbp"
       },
       {
@@ -36,8 +36,8 @@
         "director": "Colin Krawchuk",
         "actors": "Ken Arnold, Molly Bevetts",
         "description": "Un ser malévolo conocido como El Bufón aterroriza a los habitantes de un pequeño pueblo en la noche de Halloween, incluidas dos hermanas separadas que deben unirse para encontrar una manera de derrotar a esta entidad malvada.",
-        "img": "./public/cartelera/el-bufon.jpg",
-        "banner": "./public/cartelera/el-bufon-banner.jpg",
+        "img": "cartelera/el-bufon.jpg",
+        "banner": "cartelera/el-bufon-banner.jpg",
         "trailer": "https://www.youtube.com/embed/Uswm_s-N26s?si=6xQ0yHTAFa0WrKRR"
       },
       {
@@ -55,8 +55,8 @@
         "director": "Michael Mann",
         "actors": "Adam Driver, Penelope Cruz, Shailene Woodley",
         "description": "Ambientada en el verano de 1957, con el imperio automovilístico de Enzo Ferrari en crisis, el ex corredor convertido en empresario se lleva a sí mismo y a sus conductores al límite mientras se lanzan a la Mille Miglia, una traicionera carrera de 1.000 millas a través de Italia.",
-        "img": "./public/cartelera/ferrari.jpg",
-        "banner": "./public/cartelera/ferrari-banner.jpg",
+        "img": "cartelera/ferrari.jpg",
+        "banner": "cartelera/ferrari-banner.jpg",
         "trailer": "https://www.youtube.com/embed/jjwKjHVAsXY?si=5WjIr2UFjujydPZu"
       },
       {
@@ -73,8 +73,8 @@
         "director":"Fabián Bielinsky",
         "actors": "Gastón Pauls, Ricardo Darín",
         "description":"Estrenada originalmente en el año 2000. Buenos Aires. Juan y Marcos son dos estafadores que están a punto de dar el golpe de sus vidas, el que puede convertirles, al fin, en millonarios. Sólo disponen de 24 horas, pero si lo planifican todo al detalle, nada puede salir mal... o eso creen.",
-        "img": "./public/cartelera/nueve-reinas.jpg",
-        "banner": "./public/cartelera/nueve-reinas-banner.png",
+        "img": "cartelera/nueve-reinas.jpg",
+        "banner": "cartelera/nueve-reinas-banner.png",
         "trailer": "https://www.youtube.com/embed/I42JYVjQkPI?si=EPAd6LEILyQ1T3w3"
       },
       {
@@ -91,8 +91,8 @@
         "director":"Alberto Corredor",
         "actors":"Freya Allan, Saffron Burrows",
         "description":"Tras la muerte de su padre, Iris descubre que ha heredado un antiguo bar en ruinas. Viaja a Berlín para identificar el cuerpo de su padre y reunirse con el abogado para hablar sobre su herencia. Lo que ella no sabe es que, cuando firme las escrituras, quedará ligada a una entidad indescriptible que habita en el sótano del bar: Baghead, una criatura que cambia de forma y puede tomar la de cualquier persona que haya muerto. Dos mil dólares en efectivo por dos minutos con la criatura es todo lo que necesita la gente para hablar con sus seres queridos y calmar su dolor. Neil, quien ha perdido a su esposa, es el primer cliente de Iris. Al igual que lo hizo su padre, Iris se siente tentada a explotar los poderes de la criatura ayudando a personas desesperadas por algo de dinero. Pero pronto descubre que romper la regla de los dos minutos puede tener consecuencias aterradoras. Junto con su mejor amiga Katie, Iris debe luchar para mantener el control de Baghead y tiene que descubrir cómo destruirla antes de que ella acabe con ellos.",
-        "img": "./public/cartelera/baghead.jpg",
-        "banner": "./public/cartelera/baghead-banner.jpg",
+        "img": "cartelera/baghead.jpg",
+        "banner": "cartelera/baghead-banner.jpg",
         "trailer": "https://www.youtube.com/embed/q_lAdR30O08?si=EzyDRdMTK1AajYLM"
       },
       {
@@ -109,8 +109,8 @@
         "director":"Wim Wenders",
         "actors":"Koji Yakusho, Miyako Tanaka",
         "description":"1 nominación al Oscar. Hirayama parece totalmente satisfecho con su sencilla vida de limpiador de retretes en Tokio. Fuera de su estructurada rutina diaria, disfruta de su pasión por la música y los libros. Le encantan los árboles y les hace fotos. Una serie de encuentros inesperados revelan poco a poco más de su pasado.",
-        "img": "./public/cartelera/dias-perfectos.jpg",
-        "banner": "./public/cartelera/dias-perfectos-banner.jpg",
+        "img": "cartelera/dias-perfectos.jpg",
+        "banner": "cartelera/dias-perfectos-banner.jpg",
         "trailer": "https://www.youtube.com/embed/ZBYePuq6-1g?si=C5U6fKMuKwGIDC_g"
       },
       {
@@ -130,8 +130,8 @@
         "director":"Reinaldo Marcus Green",
         "actors":"Kingsley Ben-Adir, Lashana Lynch",
         "description":"Celebra la vida y la música de un ícono que inspiró a generaciones a través de su mensaje de amor y unidad. Descubra por primera vez en la pantalla grande la poderosa historia de superación de la adversidad de Bob y el viaje detrás de su música revolucionaria.",
-        "img": "./public/cartelera/bob-marley.jpg",
-        "banner": "./public/cartelera/bob-marley-banner.jpg",
+        "img": "cartelera/bob-marley.jpg",
+        "banner": "cartelera/bob-marley-banner.jpg",
         "trailer": "https://www.youtube.com/embed/FPF3V3V5gQk?si=ZuvS12yMSIg-Pe3_"
       },
       {
@@ -151,8 +151,8 @@
         "director":"S.J. Clarkson",
         "actors":"Dakota Johnson, Sydney Sweeney",
         "description":"Mientras tanto, en otro universo... Madame Web cuenta la historia del origen de una de las heroínas más enigmáticas de Marvel. Cassandra Webb es una paramédica de Manhattan que tiene poderes clarividentes. Obligada a enfrentarse a revelaciones sobre su pasado, forja una relación con tres jóvenes destinadas a tener un futuro poderoso... si consiguen sobrevivir a un presente mortal.",
-        "img": "./public/cartelera/madame-web.jpg",
-        "banner": "./public/cartelera/madame-web-banner.jpg",
+        "img": "cartelera/madame-web.jpg",
+        "banner": "cartelera/madame-web-banner.jpg",
         "trailer": "https://www.youtube.com/embed/XuZGUZumxDk?si=5VfmbnFYI-kpM1Af"
       },
       {
@@ -169,8 +169,8 @@
         "director":"Celine Song",
         "actors":"Greta Lee, Teo Yoo",
         "description":"2 nominaciones al Oscar. Nora y Hae Sung, dos amigos de la infancia profundamente unidos, son separados después de que la familia de Nora emigrara de Corea del Sur. Veinte años después, se reúnen durante una fatídica semana para enfrentarse al amor y al destino.",
-        "img": "./public/cartelera/vidas-pasadas.jpg",
-        "banner": "./public/cartelera/vidas-pasadas-banner.jpg",
+        "img": "cartelera/vidas-pasadas.jpg",
+        "banner": "cartelera/vidas-pasadas-banner.jpg",
         "trailer": "https://www.youtube.com/embed/8LwKb7sWkSs?si=I1B-YTN1VjrwiudB"
       },
       {
@@ -188,8 +188,8 @@
         "director":"James Wan",
         "actors":"Ben Affleck, Jason Momoa, Nicole Kidman",
         "description":"Al no poder derrotar a Aquaman la primera vez, Black Manta, todavía impulsado por la necesidad de vengar la muerte de su padre, no se detendrá ante nada para acabar con Aquaman de una vez por todas. Esta vez Black Manta es más formidable que nunca y ejerce el poder del mítico Tridente Negro, que desata una fuerza antigua y malévola. Para derrotarlo, Aquaman recurrirá a su hermano encarcelado Orm, el ex rey de la Atlántida, para forjar una alianza improbable. Juntos, deben dejar de lado sus diferencias para proteger su reino y salvar a la familia de Aquaman y al mundo de una destrucción irreversible.",
-        "img": "./public/cartelera/aquaman.jpg",
-        "banner": "./public/cartelera/aquaman-banner.jpg",
+        "img": "cartelera/aquaman.jpg",
+        "banner": "cartelera/aquaman-banner.jpg",
         "trailer": "https://www.youtube.com/embed/D3WCrSnCLEM?si=34TBEK-AyTraG_YX"
       },
       {
@@ -209,8 +209,8 @@
         "director":"Chris Buck",
         "actors":"No hay información",
         "description":"Asha, una ingeniosa soñadora, pide un deseo tan poderoso que es escuchado por una fuerza cósmica: una pequeña esfera de energía ilimitada llamada Estrella. Asha y Estrella se enfrentan a un enemigo imponente – el rey Magnífico, soberano de Rosas – para salvar a su comunidad y demostrar que, cuando la voluntad de una persona valiente se une a la magia de las estrellas, pueden ocurrir cosas maravillosas.",
-        "img": "./public/cartelera/wish.jpg",
-        "banner": "./public/cartelera/wish-banner.jpg",
+        "img": "cartelera/wish.jpg",
+        "banner": "cartelera/wish-banner.jpg",
         "trailer": "https://www.youtube.com/embed/fdLg09p4s6w?si=OQefZWYboLsvNeBH"
       },
       {
@@ -230,15 +230,15 @@
         "director":"Benjamin Renner",
         "actors":"No hay información",
         "description":"La familia Mallard está pasando por una pequeña crisis. Mientras que el papá, Mack, se alegra de mantener a su familia a salvo nadando alrededor de su estanque,la mamá, Pam, está ansiosa por cambiar las cosas y mostrarle el mundo entero a sus hijos: el adolescente, Dax, y la pequeña patita Gwen. Después de que una familia de patos migratorios llega a su estanque con emocionantes historias de lugares lejanos, Pam convence a Mack para emprender un viaje familiar, pasando por la ciudad de Nueva York, hacia la tropical Jamaica. Mientras los Mallard se dirigen al sur para pasar el invierno, sus planes se ven rápidamente frustrados. La experiencia los inspirará a ampliar sus horizontes, abrirse a nuevos amigos y lograr más de lo que jamás creyeron posible, al mismo tiempo que aprenderán más acerca de los demás, y de ellos mismos, de lo que nunca imaginaron.",
-        "img": "./public/cartelera/patos.jpg",
-        "banner": "./public/cartelera/patos-banner.jpg",
+        "img": "cartelera/patos.jpg",
+        "banner": "cartelera/patos-banner.jpg",
         "trailer": "https://www.youtube.com/embed/0yAHD2p7yrk?si=JHbpYR_Rc3Bj5NPH"
       },
       {
         "title": "Chicas pesadas",
         "type": ["2D"],
         "language": ["Esp"],
-        "category": ["Comedia musical"],
+        "category": ["Co musical"],
         "location": [
           {"site":"Movie Montevideo", "time": ["20:30 2D Esp"]},
           {"site":"Movie Portones", "time": ["20:30 2D Esp"]}        
@@ -249,8 +249,8 @@
         "director":"Samantha Jayne",
         "actors":"Angourie Rice, Reneé Rapp",
         "description":"La nueva estudiante Cady Heron es bienvenida a la cima de la cadena social por el elitista grupo de chicas populares llamado Las Plásticas, gobernado por la intrigante abeja reina Regina George y sus secuaces Gretchen y Karen. Sin embargo, cuando Cady comete el grave error de enamorarse del ex novio de Regina, Aaron Samuels, se encuentra en el punto de mira de Regina. Con la ayuda de sus amigos marginados Janis y Damian, Cady se propone acabar con la depredadora del grupo y aprender a ser fiel a sí misma en la jungla más despiadada de todas: el instituto.",
-        "img": "./public/cartelera/chicas-pesadas.jpg",
-        "banner": "./public/cartelera/chicas-pesadas-banner.jpg",
+        "img": "cartelera/chicas-pesadas.jpg",
+        "banner": "cartelera/chicas-pesadas-banner.jpg",
         "trailer": "https://www.youtube.com/embed/oWfbzltqLCo?si=qJio1m_10LzpA1Lm"
       },
       {
@@ -267,8 +267,8 @@
         "director":"Jason Yu",
         "actors":"Jung Yu-mi, Lee Sun-kyun",
         "description":"Una mujer embarazada comienza a preocuparse por los hábitos de sueño de su esposo. Lo que comienza poco a poco como un sueño ligero en el que habla pronto se intensifica y se convierte en un comportamiento inesperadamente grotesco. Ambos consultan a una clínica del sueño sin éxito y, a medida que aumenta su comportamiento de pesadilla, buscan desesperadamente la ayuda de un chamán.",
-        "img": "./public/cartelera/sleep.jpg",
-        "banner": "./public/cartelera/sleep-banner.jpg",
+        "img": "cartelera/sleep.jpg",
+        "banner": "cartelera/sleep-banner.jpg",
         "trailer": "https://www.youtube.com/embed/MEIJTTq0zCU?si=iQFLSkF7jsQGjjOA"
       },
       {
@@ -286,15 +286,15 @@
         "director":"Christopher Nolan",
         "actors":"Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.",
         "description":"13 nominaciones al Oscar. Ganadora de 5 Globos de Oro, incluyendo mejor película (drama), mejor director y mejor actor principal. La historia del científico estadounidense J. Robert Oppenheimer y su papel en el desarrollo de la bomba atómica.",
-        "img": "./public/cartelera/oppenheimer.jpg",
-        "banner": "./public/cartelera/oppenheimer-banner.jpg",
+        "img": "cartelera/oppenheimer.jpg",
+        "banner": "cartelera/oppenheimer-banner.jpg",
         "trailer": "https://www.youtube.com/embed/dhOGY-0XIo0?si=JGaI4V3RrraVvqpK"
       },
       {
         "title": "Con todos menos contigo",
         "type": ["2D"],
         "language": ["Sub", "Esp"],
-        "category": ["Comedia", "Romance"],
+        "category": ["Co", "Romance"],
         "location": [
           {"site":"Movie Montevideo", "time": ["20:30 2D Sub"]},
           {"site":"Movie Nuevocentro", "time": ["20:30 2D Esp"]},
@@ -307,8 +307,8 @@
         "director":"Will Gluck",
         "actors":"Glen Powell, Sydney Sweeney",
         "description":"Tras una increíble primera cita, la atracción entre Bea y Ben se enfría hasta que se reencuentran inesperadamente en una boda en Australia. Entonces hacen lo que cualquier adulto haría: fingir que son pareja.",
-        "img": "./public/cartelera/con-todos-menos-contigo.jpg",
-        "banner": "./public/cartelera/con-todos-menos-contigo-banner.jpg",
+        "img": "cartelera/con-todos-menos-contigo.jpg",
+        "banner": "cartelera/con-todos-menos-contigo-banner.jpg",
         "trailer": "https://www.youtube.com/embed/a9fCMC2pNYY?si=nQ5c2xelzDOBBESu"
       },
       {
@@ -327,8 +327,8 @@
         "director":"Yorgos Lanthimos",
         "actors":"Emma Stone, Mark Ruffallo, Willem Dafoe",
         "description":"11 nominaciones al Oscar. Ganadora de 2 Globo de Oro, mejor película (comedia o musical) y mejor actriz principal. Llega la historia increíble y evolución fantástica de Bella Baxter, una joven a la que el brillante y poco ortodoxo científico Dr. Godwin Baxter le devuelve la vida. Bajo la protección de Baxter, Bella está ansiosa por aprender. Deseosa de la experiencia que le falta, Bella huye con Duncan Wedderburn, un abogado astuto y libertino, en una aventura vertiginosa a través de los continentes. Libre de los prejuicios de su época, Bella crece firme en su propósito de defender la igualdad y la liberación.",
-        "img": "./public/cartelera/pobres-criaturas.jpg",
-        "banner": "./public/cartelera/pobres-criaturas-banner.jpg",
+        "img": "cartelera/pobres-criaturas.jpg",
+        "banner": "cartelera/pobres-criaturas-banner.jpg",
         "trailer": "https://www.youtube.com/embed/RNWIdv39b60?si=SlAc4ZqsNp8uQyn7"
       },
       {
@@ -347,8 +347,8 @@
         "director":"J.A. Bayona",
         "actors":"Enzo Vogrincic, Esteban Bigliardi",
         "description":"2 nominaciones al Oscar. En 1972, el avión 571 de la Fuerza Aérea Uruguaya que transportaba a un equipo de rugby en un vuelo chárter hacia Chile se estrelló contra un glaciar en el corazón de los Andes. Solo 29 de los 45 pasajeros sobrevivieron al impacto y, en uno de los entornos más hostiles del mundo, se vieron forzados a recurrir a medidas extremas para mantenerse con vida.",
-        "img": "./public/cartelera/sociedad-de-la-nieve.jpg",
-        "banner": "./public/cartelera/sociedad-de-la-nieve-banner.jpg",
+        "img": "cartelera/sociedad-de-la-nieve.jpg",
+        "banner": "cartelera/sociedad-de-la-nieve-banner.jpg",
         "trailer": "https://www.youtube.com/embed/79ENkuvjZLs?si=RrnCePXvddwrYGZg"
       },
       {
@@ -367,8 +367,8 @@
         "director":"Paul King",
         "actors":"Hugh Grant, Olivia Colman, Timothée Chalamet",
         "description":"Basado en el extraordinario personaje central de Charlie y la fábrica de chocolate, cuenta la maravillosa historia de cómo el mayor inventor, mago y chocolatero se convirtió en el amado Willy Wonka que conocemos hoy.",
-        "img": "./public/cartelera/wonka.jpg",
-        "banner": "./public/cartelera/wonka-banner.jpg",
+        "img": "cartelera/wonka.jpg",
+        "banner": "cartelera/wonka-banner.jpg",
         "trailer": "https://www.youtube.com/embed/wYmtRhKvmVE?si=a9CdXlm5c__8ftAI"
       }
     ]
@@ -379,62 +379,62 @@
       {
         "title": "Duna: Parte dos",
         "date": "29 de febrero",
-        "img": "./public/proximos/duna2.jpg"
+        "img": "/proximos/duna2.jpg"
       },
       {
         "title": "Garra de Hierro",
         "date": "29 de febrero",
-        "img": "./public/proximos/garra-de-hierro.jpg"
+        "img": "/proximos/garra-de-hierro.jpg"
       },
       {
         "title": "Mi Amigo Robot",
         "date": "29 de febrero",
-        "img": "./public/proximos/amigo-robot.jpg"
+        "img": "/proximos/amigo-robot.jpg"
       },
       {
         "title": "Imaginario Juguete Diabólico",
         "date": "7 de marzo",
-        "img": "./public/proximos/imaginario.jpg"
+        "img": "/proximos/imaginario.jpg"
       },
       {
         "title": "Kung Fu Panda 4",
         "date": "7 de marzo",
-        "img": "./public/proximos/kung-fu-panda-4.jpg"
+        "img": "/proximos/kung-fu-panda-4.jpg"
       },
       {
         "title": "Zona de Interés",
         "date": "7 de marzo",
-        "img": "./public/proximos/zona-de-interes.jpg"
+        "img": "/proximos/zona-de-interes.jpg"
       },
       {
         "title": "Después de la Muerte",
         "date": "14 de marzo",
-        "img": "./public/proximos/despues-de-la-muerte.jpg"
+        "img": "/proximos/despues-de-la-muerte.jpg"
       },
       {
         "title": "El Hombre de los Sueños",
         "date": "14 de marzo",
-        "img": "./public/proximos/hombre-de-los-sueños.jpg"
+        "img": "/proximos/hombre-de-los-sueños.jpg"
       },
       {
         "title": "Atrapados en lo Profundo",
         "date": "21 de marzo",
-        "img": "./public/proximos/atrapados-en-lo-profundo.jpg"
+        "img": "/proximos/atrapados-en-lo-profundo.jpg"
       },
       {
         "title": "Ghostbusters Apocalipsis Fantasma",
         "date": "21 de marzo",
-        "img": "./public/proximos/ghostbusters-apocalipsis-fantasma.jpg"
+        "img": "/proximos/ghostbusters-apocalipsis-fantasma.jpg"
       },
       {
         "title": "Luca",
         "date": "21 de marzo",
-        "img": "./public/proximos/luca.jpg"
+        "img": "/proximos/luca.jpg"
       },
       {
         "title": "Todos Somos Extraños",
         "date": "21 de marzo",
-        "img": "./public/proximos/todos-somos-extraños.jpg"
+        "img": "/proximos/todos-somos-extraños.jpg"
       }  
     ]
   }

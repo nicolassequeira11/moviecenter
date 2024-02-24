@@ -1,9 +1,9 @@
 import Reace, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "./public/media/logo-movie.png";
-import LogoMobile from "./public/media/logo-mobile.png";
+import Logo from "/logo-movie.png";
+import LogoMobile from "/logo-mobile.png";
 import { Ham } from "../../components/icons/Ham";
-import Oscarimg from "./public/media/oscarsBoton.png";
+import Oscarimg from "/oscarsBoton.png";
 
 import TheaterComedy from "@mui/icons-material/TheaterComedy";
 import LocalMoviesIcon from "@mui/icons-material/LocalMovies";

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import oscarsBanner from "./public/media/oscars/oscarsBanner.jpg";
-import oscarsTextWeb from "./public/media/oscars/oscarsTextWeb.jpg";
-import oscarsFooter from "./public/media/oscars/oscarsFooter.jpg";
+import oscarsBanner from "/oscars/oscarsBanner.jpg";
+import oscarsTextWeb from "/oscars/oscarsTextWeb.jpg";
+import oscarsFooter from "/oscars/oscarsFooter.jpg";
 import { Footer } from "./components/Footer";
 
 export const Oscars = ({setIsNavClick}) => {
