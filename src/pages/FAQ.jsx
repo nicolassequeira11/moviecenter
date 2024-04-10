@@ -1,9 +1,11 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 import { Footer } from "./components/Footer";
 import { MyAccordion } from "../components/Accordion";
 import HelpIcon from '@mui/icons-material/Help';
+import { NavContext } from "../context/NavContext";
 
-export const FAQ = ({setIsNavClick}) => {
+export const FAQ = () => {
+  const { setIsNavClick } = useContext(NavContext);
   
   useEffect(() => {
     setIsNavClick(false);
@@ -24,15 +26,15 @@ export const FAQ = ({setIsNavClick}) => {
   ]
 
   return(
-    <div className="bg-gray1">
-      <div className="w-8/12 max-md:w-11/12 mx-auto pt-16">
+    <div className="bg-gray2">
+      <div className="max-xl:w-11/12 xl:w-8/12 mx-auto pt-16">
         <h2 className="text-white max-md:mx-auto flex py-5 text-4xl max-md:text-2xl max-md:w-11/12">
           <HelpIcon className="my-auto scale-125 me-2" />
           Preguntas frecuentes
         </h2>
         <MyAccordion 
           array={FAQ}
-          className="text-lg text-white border-b-2 bg-gray3 px-5 rounded-lg border-opacity-70 border-darkpink mb-6"
+          className="text-lg text-white border-b-2 bg-gray1 px-5 rounded-lg border-opacity-70 border-darkpink mb-6"
           classNameItem="text-gray-200 text-sm mb-3"
         />
       </div>

@@ -46,57 +46,58 @@ export const Movies = ({ handleChangeMovies, handleMovieSelected }) => {
     { text: "Sub" },
     { text: "Esp" },
     { text: "2D" },
-    { text: "3D" },
     { text: "4D" },
   ];
 
   return (
-    <div className="py-5">
+    <div className="py-5 pb-10">
       <div className="w-11/12 justify-between flex mx-auto flex-wrap">
         <h2 className="text-white flex py-5 text-4xl max-md:text-3xl max-md:mx-auto">
           <LocalMoviesIcon className="my-auto scale-125 me-2" />
           Cartelera
         </h2>
-        <div className="my-auto max-md:pb-5 max-md:w-full mx-auto w-1/4 justify-around flex">
-          {buttons.map((item, index) => (
-            <div className="max-md:w-1/5 flex justify-center">
+        <div className="max-md:flex-col-reverse max-md:w-full w-3/4 flex justify-between">
+          <div className="my-auto max-md:pb-5 max-md:w-full justify-around flex">
+            {buttons.map((item, index) => (
+              <div className="max-md:w-1/5 flex justify-center">
+                <PrincipalButton
+                  key={index}
+                  text={item.text}
+                  color="text-white hover:bg-opacity-60 hover:bg-darkpink border-opacity-70"
+                  shadow="shadow-xl"
+                  rounded="rounded-full"
+                  width={"w-full max-md:mx-1 mx-2"}
+                  onClick={() => {
+                    filterMovies(item.text);
+                    handleClick(index);
+                  }}
+                  background={
+                    buttonClicked === index
+                      ? "bg-gradient-to-tr to-lightpink via-mypink from-pink-800 border-2 border-darkpink"
+                      : "bg-gray2 border-2 border-darkpink"
+                  }
+                />
+              </div>
+            ))}
+          </div>
+          <div className="my-auto justify-center max-md:pb-5 flex max-md:w-full">
+            <div className="border-2 border-darkpink border-opacity-70 rounded-full">
               <PrincipalButton
-                key={index}
-                text={item.text}
+                text="Cartelera"
+                color="text-white"
+                shadow="shadow-xl"
+                rounded="rounded-s-full"
+                background="bg-gradient-to-tr to-lightpink from-pink-800"
+              />
+              <PrincipalButton
+                text="Próximos Estrenos"
                 color="text-white hover:bg-opacity-60 hover:bg-darkpink"
                 shadow="shadow-xl"
-                rounded="rounded-full"
-                width={"w-full max-md:mx-1"}
-                onClick={() => {
-                  filterMovies(item.text);
-                  handleClick(index);
-                }}
-                background={
-                  buttonClicked === index
-                    ? "bg-gradient-to-tr to-lightpink via-mypink from-pink-800"
-                    : "bg-gray3"
-                }
+                rounded="rounded-e-full"
+                onClick={handleChangeMovies}
+                background="bg-gray2"
               />
             </div>
-          ))}
-        </div>
-        <div className="my-auto justify-center max-md:pb-5 flex max-md:w-full">
-          <div>
-            <PrincipalButton
-              text="Cartelera"
-              color="text-white"
-              shadow="shadow-xl"
-              rounded="rounded-s-full"
-              background="bg-gradient-to-tr to-lightpink from-pink-800"
-            />
-            <PrincipalButton
-              text="Próximos Estrenos"
-              color="text-white hover:bg-opacity-60 hover:bg-darkpink"
-              shadow="shadow-xl"
-              rounded="rounded-e-full"
-              onClick={handleChangeMovies}
-              background="bg-gray3"
-            />
           </div>
         </div>
       </div>

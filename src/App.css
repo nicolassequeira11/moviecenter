@@ -8,3 +8,15 @@
   color: #ff006c !important;
   font-size: 13px !important;
 }
+
+.slick-arrow{
+  display: none !important;
+}
+
+.slider-container .slick-arrow{
+  display: flex !important;
+}
+
+.text-foreground{
+  color: white !important;
+}

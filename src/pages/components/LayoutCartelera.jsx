@@ -5,6 +5,8 @@ import { Footer } from "./Footer";
 import dataMovies from "../../data/dataMovies.json";
 import dataTeatro from "../../data/dataTeatro.json";
 import { PrincipalButton } from "../../components/Buttons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const LayoutCartelera = ({dataArray, handleMovieSelected, title}) => {
   const [newData, setNewData] = useState([]);
@@ -17,10 +19,12 @@ export const LayoutCartelera = ({dataArray, handleMovieSelected, title}) => {
     } else if (localStorageArray === "Teatro") {
       setNewData(dataTeatro.find((item) => item.name === "Teatro").list);
     }
+
+    AOS.init({ duration: 1500 });
   }, [dataArray]);
 
   return (
-    <div className="bg-gray1">
+    <div className="bg-gray2">
       <div className="w-11/12 pt-20 mx-auto">
         <h2 className="text-white border-b-2 border-darkpink max-md:mx-auto flex py-5 text-4xl max-md:w-11/12">
           <LocalMoviesIcon className="my-auto scale-125 me-2" />
@@ -28,23 +32,33 @@ export const LayoutCartelera = ({dataArray, handleMovieSelected, title}) => {
         </h2>
         <div className="w-7/12 max-md:w-11/12 mx-auto text-gray-200">
           {newData.map((item, index) => (
-              <div key={index} className="border-b-2 border-darkpink pt-14 pb-9 max-md:flex-wrap flex">
-                <div className="w-fit max-md:w-full">
+              <div 
+                key={index}           
+                data-aos="fade-zoom-in" 
+                data-aos-duration="500" 
+                className="border-b-2 border-darkpink pt-14 pb-9 max-md:flex-wrap flex"
+              >
+                <Link 
+                  to="/info"
+                  className="w-fit max-md:w-full"
+                  onClick={() => handleMovieSelected(item)}
+                >
                   <img
                     src={item.img}
+                    onClick={() => handleMovieSelected(item)}
                     className="min-w-[250px] w-[250px] max-md:w-full max-md:h-[30rem] h-[25rem] object-cover rounded-lg"
                   />
                   <Link to="/info">
                     <PrincipalButton
                       text="Ver Funciones"
                       rounded="rounded-full"
-                      shadow="shadow-xl"
+                      shadow="shadow-xl border-2 border-darkpink border-opacity-70"
                       onClick={() => handleMovieSelected(item)}
                       width="max-md:w-full w-fit mx-auto justify-center flex mt-5 max-md:text-lg"
-                      background="bg-gray3 hover:bg-darkpink hover:bg-opacity-60"
+                      background="bg-gray2 text-white hover:bg-darkpink hover:bg-opacity-60"
                     />
                   </Link>
-                </div>
+                </Link>
                 <div className="ms-10 max-md:ms-0 max-md:mt-6">
                   <p className="text-3xl">{item.title}</p>
                   <p className="bg-gray5 px-2 mb-4 mt-2 w-fit">

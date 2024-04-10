@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import { ModalTrailer } from "../components/Modal";
 import ScheduleIcon from "@mui/icons-material/Schedule";
 import { PrincipalButton } from "../components/Buttons";
 import { Footer } from "./components/Footer";
 
-export const MovieInfo = ({ movieSelected }) => {
+import { MovieSelectedContext } from "../context/MovieSelectedContext";
+
+export const MovieInfo = () => {
+  const { movieSelected } = useContext(MovieSelectedContext);
+
   return (
-    <div className="bg-gray1">
+    <div className="bg-gray2">
       <div>
         <div className="relative flex">
           <img
@@ -103,6 +107,7 @@ export const MovieInfo = ({ movieSelected }) => {
           </div>
 
           {/* Schedule */}
+          {movieSelected.location &&
           <div className="text-gray-200 w-full mx-auto border-t-2 border-darkpink max-md:border-none">
             <h2 className="text-white flex py-5 text-4xl max-md:w-11/12 max-md:mx-auto max-md:justify-center">
               <ScheduleIcon className="my-auto scale-125 me-2" />
@@ -118,8 +123,8 @@ export const MovieInfo = ({ movieSelected }) => {
                         text={timeItem}
                         rounded="rounded-full"
                         width="w-fit"
-                        shadow="shadow-xl"
-                        background="bg-gray3 hover:bg-darkpink hover:bg-opacity-60"
+                        shadow="shadow-xl border-2 border-darkpink border-opacity-70"
+                        background="bg-gray1 text-white hover:bg-darkpink hover:bg-opacity-60"
                       />
                     </div>
                   ))}
@@ -127,7 +132,9 @@ export const MovieInfo = ({ movieSelected }) => {
               ))}
             </div>
           </div>
+          }
         </div>
+        
       </div>
       <Footer />
     </div>

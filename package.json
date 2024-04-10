@@ -18,6 +18,8 @@
     "@mui/material": "^5.15.10",
     "@nextui-org/modal": "^2.0.28",
     "@nextui-org/react": "^2.2.9",
+    "@nextui-org/select": "^2.1.21",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.5",
     "gh-pages": "^6.1.1",

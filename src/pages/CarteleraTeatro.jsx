@@ -1,7 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { LayoutCartelera } from "./components/LayoutCartelera";
 
-export const CarteleraTeatro = ({dataArray, setIsNavClick, handleMovieSelected}) => {
+// CONTEXTS
+import { NavContext } from "../context/NavContext";
+import { MovieSelectedContext } from "../context/MovieSelectedContext";
+
+export const CarteleraTeatro = ({dataArray}) => {
+  const { setIsNavClick } = useContext(NavContext);
+  const { handleMovieSelected } = useContext(MovieSelectedContext);
 
   useEffect(() => {
     setIsNavClick(false);

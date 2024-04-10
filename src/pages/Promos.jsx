@@ -1,17 +1,19 @@
-import { useEffect } from "react";
+import { useEffect, useContext } from "react";
 import { Footer } from "./components/Footer";
 import LocalOfferIcon from '@mui/icons-material/LocalOffer';
 import dataPromos from "../data/dataPromos.json"
+import { NavContext } from "../context/NavContext";
 
-export const Promos = ({setIsNavClick}) => {
+export const Promos = () => {
+  const { setIsNavClick } = useContext(NavContext);
   
   useEffect(() => {
     setIsNavClick(false);
   }, [])
 
   return(
-    <div className="bg-gray1">
-      <div className="w-8/12 max-md:w-11/12 mx-auto pt-16">
+    <div className="bg-gray2">
+      <div className="max-xl:w-11/12 xl:w-8/12 mx-auto pt-16">
         <h2 className="text-white max-md:mx-auto flex py-5 text-4xl max-md:text-2xl max-md:w-11/12">
           <LocalOfferIcon className="my-auto scale-125 me-2" />
           Promociones

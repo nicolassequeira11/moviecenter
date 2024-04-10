@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 
 export const Carousel = ({array}) => {
   var settings = {
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -52,12 +54,12 @@ export const CarouselMovies = ({array, handleMovieSelected}) => {
   }
 
   const settings = {
-    className: "center",
-    infinite: false,
+    className: "",
+    infinite: true,
     centerPadding: "60px",
     slidesToShow: 8,
+    slidesToScroll: 8,
     speed: 250,
-    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1500, 
@@ -147,7 +149,7 @@ export const CarouselMovies = ({array, handleMovieSelected}) => {
               }
             </div>
             <p 
-              className="text-gray-200 text-sm text-start px-2 pt-2"
+              className="text-gray-200 text-sm text-center px-2 pt-2"
             >
               {item.title}
             </p>
@@ -157,3 +159,31 @@ export const CarouselMovies = ({array, handleMovieSelected}) => {
     </div>
   );
 }
+
+export const FadeCarousel = ({ array }) => {
+
+  const settings = {
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    arrows: false,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    waitForAnimate: false
+  };
+
+  return (
+    <div className="slider-container border-4 border-darkpink bg-gray1">
+      <Slider {...settings}>
+        {array.map((item, index) => (
+          <div key={index} className="h-[15rem] w-[22rem]">
+            <img src={item.img} className="h-[16rem] object-cover" />
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+}
+

@@ -1,0 +1,728 @@
+[{
+  "prices": [{
+      "funciones": [{
+          "type": "Funciones 2D",
+          "items": [{
+              "description": "Todos los días",
+              "price": 430
+            },
+            {
+              "description": "Mayores de 60 años: todos los días",
+              "price": 390
+            }
+          ]
+        },
+        {
+          "type": "Funciones 3D",
+          "items": [{
+            "description": "Todos los días",
+            "price": 460
+          }]
+        },
+        {
+          "type": "Funciones 4D E-Motion",
+          "items": [{
+            "description": "Todos los días",
+            "price": 690
+          }]
+        }
+      ]
+    },
+    {
+      "Snacks": [{
+          "type": "Snacks",
+          "items": [{
+              "id": 1,
+              "type":"Snacks",
+              "description": "Lays grandes",
+              "price": 175,
+              "img": "precios/snacks/Lays96Grs.jpg"
+            },
+            {
+              "id": 2,
+              "type":"Snacks",
+              "description": "Lays chicas",
+              "price": 85,
+              "img": "precios/snacks/Lays38Grs.jpg"
+            },
+            {
+              "id": 3,
+              "type":"Snacks",
+              "description": "Lays sin sal",
+              "price": 175,
+              "img": "precios/snacks/Movie-ventaweb-layssinsal.jpg"
+            },
+            {
+              "id": 4,
+              "type":"Snacks",
+              "description": "Lays rusticas",
+              "price": 200,
+              "img": "precios/snacks/Movie-ventaweb-laysRusticas_200x200.jpg"
+            },
+            {
+              "id": 5,
+              "type":"Snacks",
+              "description": "Lays Stax",
+              "price": 230,
+              "img": "precios/snacks/LaysStax.jpg"
+            },
+            {
+              "id": 6,
+              "type":"Snacks",
+              "description": "Doritos",
+              "price": 175,
+              "img": "precios/snacks/Movie-ventaweb-doritos.jpg"
+            },
+            {
+              "id": 7,
+              "type":"Snacks",
+              "description": "Cheetos",
+              "price": 175,
+              "img": "precios/snacks/Cheetos.jpg"
+            },
+            {
+              "id": 8,
+              "type":"Snacks",
+              "description": "Pali Chips",
+              "price": 165,
+              "img": "precios/snacks/PaliChips.jpg"
+            },
+            {
+              "id": 9,
+              "type":"Snacks",
+              "description": "Mani grande",
+              "price": 175,
+              "img": "precios/snacks/Movie-ventaweb-manigrande.jpg"
+            },
+            {
+              "id": 10,
+              "type":"Snacks",
+              "description": "Mani chico",
+              "price": 75,
+              "img": "precios/snacks/Movie-ventaweb-manichico.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Pop",
+          "items": [{
+              "id": 50,
+              "type":"Pop",
+              "description": "Bongo Avatar 2 con pop",
+              "price": 300,
+              "img": "precios/pop/2022-12-15PreVentaMovie-packAvatar22-venta200x200_05.jpg"
+            },
+            {
+              "id": 51,
+              "type":"Pop",
+              "description": "Pop Grande",
+              "price": 200,
+              "img": "precios/pop/PopGrande.jpg"
+            },
+            {
+              "id": 52,
+              "type":"Pop",
+              "description": "Pop Regular",
+              "price": 185,
+              "img": "precios/pop/PopMediano.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Movie Shop",
+          "items": [{
+              "id": 100,
+              "type":"Movie Shop",
+              "description": "Estatuilla Mickey",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_Mickey.jpg"
+            },
+            {
+              "id": 101,
+              "type":"Movie Shop",
+              "description": "Estatuilla Minnie",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_minnie.jpg"
+            },
+            {
+              "id": 102,
+              "type":"Movie Shop",
+              "description": "Estatuilla Woody",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_woody.jpg"
+            },
+            {
+              "id": 103,
+              "type":"Movie Shop",
+              "description": "Estatuilla Iron Man",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_ironMan.jpg"
+            },
+            {
+              "id": 104,
+              "type":"Movie Shop",
+              "description": "Estatuilla Darth Vader",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_Darth.jpg"
+            },
+            {
+              "id": 105,
+              "type":"Movie Shop",
+              "description": "Estatuilla Yoda",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_yoda.jpg"
+            },
+            {
+              "id": 106,
+              "type":"Movie Shop",
+              "description": "Estatuilla Elsa",
+              "price": 650,
+              "img": "precios/Movie Shop/Movie-D100-imgsventa200x200_elsa.jpg"
+            },
+            {
+              "id": 107,
+              "type":"Movie Shop",
+              "description": "Vaso Aquaman sin refresco",
+              "price": 350,
+              "img": "precios/Movie Shop/Movie-aquaman23-pack_imgventa200x200_03.jpg"
+            },
+            {
+              "id": 108,
+              "type":"Movie Shop",
+              "description": "Vaso Unidos Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/UnidosWEB200x200.jpg"
+            },
+            {
+              "id": 109,
+              "type":"Movie Shop",
+              "description": "Vaso Los Increibles 2",
+              "price": 170,
+              "img": "precios/Movie Shop/Bebida Los Increibles 2-SinTopper.jpg"
+            },
+            {
+              "id": 110,
+              "type":"Movie Shop",
+              "description": "Bongo Avatar 2 sin pop",
+              "price": 250,
+              "img": "precios/Movie Shop/Movie-packPelicula23-venta200x200_bongoSinPop.jpg"
+            },
+            {
+              "id": 111,
+              "type":"Movie Shop",
+              "description": "Vaso Rey Leon Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/Movie-packReyLeon19-imgs200x200_03.jpg"
+            },
+            {
+              "id": 112,
+              "type":"Movie Shop",
+              "description": "Vaso Frozen 2 Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/Movie-packfrozen19-imgs200x200_04.jpg"
+            },
+            {
+              "id": 113,
+              "type":"Movie Shop",
+              "description": "Vaso Toy Story 4 Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/Movie-packtoystory19-200x200_vasosNuevos_04.jpg"
+            },
+            {
+              "id": 114,
+              "type":"Movie Shop",
+              "description": "Vaso Malefica Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/Movie-promovasos19-imgs200x200_malefica01.jpg"
+            },
+            {
+              "id": 115,
+              "type":"Movie Shop",
+              "description": "Vaso IT2 Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/Movie-packIT19-imgsventa200x200_03.jpg"
+            },
+            {
+              "id": 116,
+              "type":"Movie Shop",
+              "description": "Vaso Mulán Sin Refresco",
+              "price": 170,
+              "img": "precios/Movie Shop/vaso mulan  200x200_06.jpg"
+            },
+            {
+              "id": 117,
+              "type":"Movie Shop",
+              "description": "ICON MUG",
+              "price": 590,
+              "img": "precios/Movie Shop/Movie-bobMarley24-imgsventa200x200_iconMug.jpg"
+            },
+            {
+              "id": 118,
+              "type":"Movie Shop",
+              "description": "Juego Trivia",
+              "price": 850,
+              "img": "precios/Movie Shop/Movie-trivia22-venta200x200.jpg"
+            },
+            {
+              "id": 119,
+              "type":"Movie Shop",
+              "description": "COOL MUG",
+              "price": 590,
+              "img": "precios/Movie Shop/Movie-bobMarley24-imgsventa200x200_CoolMug.jpg"
+            },
+            {
+              "id": 120,
+              "type":"Movie Shop",
+              "description": "Mochila Fast X",
+              "price": 3000,
+              "img": "precios/Movie Shop/Movie-garage-merch_imgsventa200x200_mochila.jpg"
+            },
+            {
+              "id": 121,
+              "type":"Movie Shop",
+              "description": "Gorra Fast X",
+              "price": 800,
+              "img": "precios/Movie Shop/Movie-garage-merch_imgsventa200x200_gorro.jpg"
+            },
+            {
+              "id": 122,
+              "type":"Movie Shop",
+              "description": "Campera Canguro Fast X",
+              "price": 900,
+              "img": "precios/Movie Shop/Movie-garage-merch_imgsventa200x200_canguro.jpg"
+            },
+            {
+              "id": 123,
+              "type":"Movie Shop",
+              "description": "Balde Soul Sin Pop",
+              "price": 200,
+              "img": "precios/Movie Shop/Movie-packSoul22-ventaweb200x200_03.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Combos",
+          "items": [{
+              "id": 150,
+              "type":"Combos",
+              "description": "Pack Aquaman para compartir con Pop Grande",
+              "price": 890,
+              "img": "precios/Movie-aquaman23-pack_imgventa200x200_02.jpg"
+            },
+            {
+              "id": 151,
+              "type":"Combos",
+              "description": "Pack Aquaman individual",
+              "price": 490,
+              "img": "precios/Movie-aquaman23-pack_imgventa200x200_01.jpg"
+            },
+            {
+              "id": 152,
+              "type":"Combos",
+              "description": "Pack Super Valentin",
+              "price": 550,
+              "img": "precios/Movie-SanValentin24-imgsventa_200x200.jpg"
+            },
+            {
+              "id": 153,
+              "type":"Combos",
+              "description": "Pack Donuts",
+              "price": 120,
+              "img": "precios/Movie-donuts23-ventaweb200x200_01.jpg"
+            },
+            {
+              "id": 154,
+              "type":"Combos",
+              "description": "Super Movie Love",
+              "price": 500,
+              "img": "precios/SMovieL.jpg"
+            },
+            {
+              "id": 155,
+              "type":"Combos",
+              "description": "Movie Love",
+              "price": 445,
+              "img": "precios/MovieLove.jpg"
+            },
+            {
+              "id": 156,
+              "type":"Combos",
+              "description": "Movie Grande",
+              "price": 345,
+              "img": "precios/Movie3.jpg"
+            },
+            {
+              "id": 157,
+              "type":"Combos",
+              "description": "Movie Combinado",
+              "price": 330,
+              "img": "precios/Movie-ventaweb-movieCombinado_web.jpg"
+            },
+            {
+              "id": 158,
+              "type":"Combos",
+              "description": "Movie Regular",
+              "price": 300,
+              "img": "precios/Movie2.jpg"
+            },
+            {
+              "id": 159,
+              "type":"Combos",
+              "description": "Movie Stella Artois",
+              "price": 310,
+              "img": "precios/Movie-ventaweb-movieCerveza02.jpg"
+            },
+            {
+              "id": 160,
+              "type":"Combos",
+              "description": "Movie Zillertal",
+              "price": 310,
+              "img": "precios/Movie-ventaweb-movieCerveza01.jpg"
+            },
+            {
+              "id": 161,
+              "type":"Combos",
+              "description": "Movie Doritos Stella Artois",
+              "price": 320,
+              "img": "precios/Movie-ventaweb-StellaZillertal.jpg"
+            },
+            {
+              "id": 162,
+              "type":"Combos",
+              "description": "Movie Doritos Zillertal",
+              "price": 320,
+              "img": "precios/Movie-ventaweb-DoritosZillertal.jpg"
+            },
+            {
+              "id": 163,
+              "type":"Combos",
+              "description": "Movie Lays Stella Artois",
+              "price": 320,
+              "img": "precios/Movie-ventaweb-laysStella.jpg"
+            },
+            {
+              "id": 164,
+              "type":"Combos",
+              "description": "Movie Lays Zillertal",
+              "price": 320,
+              "img": "precios/Movie-ventaweb-laysZillertal.jpg"
+            },
+            {
+              "id": 165,
+              "type":"Combos",
+              "description": "Movie Mani con Chocolate Amargo",
+              "price": 250,
+              "img": "precios/Movie6.jpg"
+            },
+            {
+              "id": 166,
+              "type":"Combos",
+              "description": "Movie Mani con Chocolate Dulce",
+              "price": 250,
+              "img": "precios/Movie6D.jpg"
+            },
+            {
+              "id": 167,
+              "type":"Combos",
+              "description": "Movie Mani con Chocolate Sin Azúcar",
+              "price": 265,
+              "img": "precios/Movie-ventaweb-200x200_MoviemanichocoSinazucar.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Golosinas",
+          "items": [{
+              "id": 200,
+              "type":"Golosinas",
+              "description": "Mani amargo",
+              "price": 125,
+              "img": "precios/golosinas/ManiAmargo.jpg"
+            },
+            {
+              "id": 201,
+              "type":"Golosinas",
+              "description": "Mani con leche",
+              "price": 125,
+              "img": "precios/golosinas/ManiConLeche.jpg"
+            },
+            {
+              "id": 202,
+              "type":"Golosinas",
+              "description": "Mani con Chocolate Sin Azúcar",
+              "price": 145,
+              "img": "precios/golosinas/Movie-ventaweb-200x200_manichocoSinazucar.jpg"
+            },
+            {
+              "id": 203,
+              "type":"Golosinas",
+              "description": "Actis",
+              "price": 140,
+              "img": "precios/golosinas/Actis.jpg"
+            },
+            {
+              "id": 204,
+              "type":"Golosinas",
+              "description": "Rocklets 150 grs",
+              "price": 110,
+              "img": "precios/golosinas/rocklets150_200x200.jpg"
+            },
+            {
+              "id": 205,
+              "type":"Golosinas",
+              "description": "Rocklets Mini Bolsa",
+              "price": 110,
+              "img": "precios/golosinas/Rockletsmini_200x200.jpg"
+            },
+            {
+              "id": 206,
+              "type":"Golosinas",
+              "description": "Mogul 150 grs",
+              "price": 135,
+              "img": "precios/golosinas/Movie-ventaweb-mogul_200x200.jpg"
+            },
+            {
+              "id": 207,
+              "type":"Golosinas",
+              "description": "Mogul 80 grs",
+              "price": 110,
+              "img": "precios/golosinas/Mogul80Grs.jpg"
+            },
+            {
+              "id": 208,
+              "type":"Golosinas",
+              "description": "M&M Grande",
+              "price": 255,
+              "img": "precios/golosinas/M&MsGrande.jpg"
+            },
+            {
+              "id": 209,
+              "type":"Golosinas",
+              "description": "M&M Chico",
+              "price": 100,
+              "img": "precios/golosinas/M&MChico.jpg"
+            },
+            {
+              "id": 210,
+              "type":"Golosinas",
+              "description": "M&M Mini Tubo",
+              "price": 80,
+              "img": "precios/golosinas/M&MMiniTubo.jpg"
+            },
+            {
+              "id": 211,
+              "type":"Golosinas",
+              "description": "Skittles Original Grande",
+              "price": 260,
+              "img": "precios/golosinas/SkittlerGrande.jpg"
+            },
+            {
+              "id": 212,
+              "type":"Golosinas",
+              "description": "Skittles Original Mediano",
+              "price": 100,
+              "img": "precios/golosinas/skittlestropical200x200.jpg"
+            },
+            {
+              "id": 213,
+              "type":"Golosinas",
+              "description": "Gobstopper",
+              "price": 125,
+              "img": "precios/golosinas/gobstopperWEB.jpg"
+            },
+            {
+              "id": 214,
+              "type":"Golosinas",
+              "description": "Caramelos Nerds Chico",
+              "price": 155,
+              "img": "precios/golosinas/nerds_chicosWEB.jpg"
+            },
+            {
+              "id": 215,
+              "type":"Golosinas",
+              "description": "Twix",
+              "price": 90,
+              "img": "precios/golosinas/Twix.jpg"
+            },
+            {
+              "id": 216,
+              "type":"Golosinas",
+              "description": "Snickers",
+              "price": 95,
+              "img": "precios/golosinas/Snickers.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Bebidas",
+          "items": [{
+              "id": 250,
+              "type":"Bebidas",
+              "description": "Vaso Aquaman con refresco",
+              "price": 420,
+              "img": "precios/bebidas/Movie-aquaman23-pack_imgventa200x200_03.jpg"
+            },
+            {
+              "id": 251,
+              "type":"Bebidas",
+              "description": "Bebida grande",
+              "price": 175,
+              "img": "precios/bebidas/BebidaGrande.jpg"
+            },
+            {
+              "id": 252,
+              "type":"Bebidas",
+              "description": "Bebida mediana",
+              "price": 155,
+              "img": "precios/bebidas/BebidaMediana.jpg"
+            },
+            {
+              "id": 253,
+              "type":"Bebidas",
+              "description": "Cerveza Stella Artois 473 ml",
+              "price": 170,
+              "img": "precios/bebidas/Movie-ventaweb-StellaLata_200x200.jpg"
+            },
+            {
+              "id": 254,
+              "type":"Bebidas",
+              "description": "Cerveza Zillertal 473 ml",
+              "price": 170,
+              "img": "precios/bebidas/Movie-ventaweb-zillertalLata_200x200.jpg"
+            },
+            {
+              "id": 255,
+              "type":"Bebidas",
+              "description": "Vitale 625cc",
+              "price": 110,
+              "img": "precios/bebidas/Vitale625cc.jpg"
+            },
+            {
+              "id": 256,
+              "type":"Bebidas",
+              "description": "Monster Original",
+              "price": 145,
+              "img": "precios/bebidas/Movie-ventaweb-monster_200x200.jpg"
+            },
+            {
+              "id": 257,
+              "type":"Bebidas",
+              "description": "Monster Ultra",
+              "price": 145,
+              "img": "precios/bebidas/Movie-ventaweb-monsterUltra_200x200.jpg"
+            },
+            {
+              "id": 258,
+              "type":"Bebidas",
+              "description": "Monster Tropical",
+              "price": 145,
+              "img": "precios/bebidas/Movie-ventaweb-monsterParadise.jpg"
+            },
+            {
+              "id": 259,
+              "type":"Bebidas",
+              "description": "Monster Sunrise",
+              "price": 145,
+              "img": "precios/bebidas/Movie-ventaweb-monsterUltraSunrise.jpg"
+            },
+            {
+              "id": 260,
+              "type":"Bebidas",
+              "description": "Vitale Saborizada",
+              "price": 130,
+              "img": "precios/bebidas/Movie-ventaweb-vitaleSaborizada.jpg"
+            },
+            {
+              "id": 261,
+              "type":"Bebidas",
+              "description": "Aquarius",
+              "price": 130,
+              "img": "precios/bebidas/Movie-AQUARIUS-imgs200x200.jpg"
+            }
+          ]
+        },
+        {
+          "type": "Calientes",
+          "items": [{
+              "id": 300,
+              "type":"Calientes",
+              "description": "Empanadas + Coca Cola",
+              "price": 350,
+              "img": "precios/calientes/Movie-packempanadas22-ventaweb200x200_01.jpg"
+            },
+            {
+              "id": 301,
+              "type":"Calientes",
+              "description": "Movie Empanadas Stella Artois",
+              "price": 350,
+              "img": "precios/calientes/Movie-ventaweb-empanadasStella.jpg"
+            },
+            {
+              "id": 302,
+              "type":"Calientes",
+              "description": "Movie Empanadas Zillertal",
+              "price": 350,
+              "img": "precios/calientes/Movie-packempanadas22-ventaweb200x200_02.jpg"
+            },
+            {
+              "id": 303,
+              "type":"Calientes",
+              "description": "Empanadas",
+              "price": 110,
+              "img": "precios/calientes/Movie-packempanadas22-ventaweb200x200_04.jpg"
+            },
+            {
+              "id": 304,
+              "type":"Calientes",
+              "description": "Marley Regular",
+              "price": 150,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyMediano.jpg"
+            },
+            {
+              "id": 305,
+              "type":"Calientes",
+              "description": "Marley Regular + 2 Donuts",
+              "price": 240,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyMedianoDonuts.jpg"
+            },
+            {
+              "id": 306,
+              "type":"Calientes",
+              "description": "Marley Grande",
+              "price": 180,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyGrande.jpg"
+            },
+            {
+              "id": 307,
+              "type":"Calientes",
+              "description": "Marley Grande + 2 Donuts",
+              "price": 260,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyGrandeDonuts.jpg"
+            },
+            {
+              "id": 308,
+              "type":"Calientes",
+              "description": "Marley Grande + Pop Regular",
+              "price": 300,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyGrandePop.jpg"
+            },
+            {
+              "id": 309,
+              "type":"Calientes",
+              "description": "Marley Grande + Mani con chocolate Amargo",
+              "price": 300,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyGrandeManiChoco.jpg"
+            },
+            {
+              "id": 310,
+              "type":"Calientes",
+              "description": "Marley Grande + Mani con chocolate Dulce",
+              "price": 300,
+              "img": "precios/calientes/Movie-marleyDonas-imgsventa200x200_marleyGrandeManiChocoDulce.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]

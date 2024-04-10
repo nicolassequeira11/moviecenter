@@ -1,7 +1,13 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
-import { Link, Routes, Route, useNavigate } from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
+// PROVIDERS
+import { NextUIProvider } from "@nextui-org/react";
+import { NavProvider } from './context/NavContext';
+import { MovieSelectedProvider } from './context/MovieSelectedContext';
+
+// PAGES
 import { Navbar } from './pages/components/Navbar';
 import { Home } from './pages/Home';
 import { MovieInfo } from './pages/MovieInfo';
@@ -10,81 +16,69 @@ import { Oscars } from './pages/Oscars';
 import { CarteleraTeatro } from './pages/CarteleraTeatro';
 import { FAQ } from './pages/FAQ';
 import { Promos } from './pages/Promos';
+import { Prices } from './pages/Prices';
+import { Checkout } from './pages/Checkout/Checkout';
+import { MovieKids } from './pages/MovieKids';
+import { Corporativo } from './pages/Corporativo.jsx/Corporativo';
 
 export const App = () => {
-  const initialMovieSelected = JSON.parse(localStorage.getItem('movieSelected')) || [];
-  const [movieSelected, setMovieSelected] = useState(initialMovieSelected);
-  const [isNavClick, setIsNavClick] = useState(false);
-
-  const handleNavClick = () => {
-    setIsNavClick(prevIsNavClick => !prevIsNavClick);
-  }
-
-  const handleMovieSelected = (movie) => {
-    setMovieSelected(movie);
-  }
-
-  useEffect(() => {
-    localStorage.setItem('movieSelected', JSON.stringify(movieSelected));
-  }, [movieSelected]);
 
   return (
-    <>
-      <Navbar 
-        handleNavClick={handleNavClick}
-        isNavClick={isNavClick}
-      />
+    <NextUIProvider>
+      <NavProvider>
+        <MovieSelectedProvider>
+          <Navbar />
 
-      <Routes>
-        <Route
-          path="/"
-          element={<Home 
-            handleMovieSelected={handleMovieSelected} 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/info"
-          element={<MovieInfo 
-            movieSelected={movieSelected} 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/cartelera"
-          element={<CarteleraMovies 
-            movieSelected={movieSelected} 
-            handleMovieSelected={handleMovieSelected} 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/teatro"
-          element={<CarteleraTeatro 
-            movieSelected={movieSelected} 
-            handleMovieSelected={handleMovieSelected} 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/oscars"
-          element={<Oscars 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/faq"
-          element={<FAQ 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-        <Route
-          path="/promos"
-          element={<Promos 
-            setIsNavClick={setIsNavClick}
-          />}
-        />
-      </Routes>
-    </>
+          <Routes>
+
+            <Route
+              path="/"
+              element={<Home />}
+            />
+            <Route
+              path="/info"
+              element={<MovieInfo />}
+            />
+            <Route
+              path="/cartelera"
+              element={<CarteleraMovies />}
+            />
+            <Route
+              path="/teatro"
+              element={<CarteleraTeatro />}
+            />
+            <Route
+              path="/oscars"
+              element={<Oscars />}
+            />
+            <Route
+              path="/faq"
+              element={<FAQ />}
+            />
+            <Route
+              path="/promos"
+              element={<Promos />}
+            />
+            <Route
+              path="/prices"
+              element={<Prices />}
+            />
+            <Route
+              path="/checkout"
+              element={<Checkout />}
+            />
+            <Route
+              path="/moviekids"
+              element={<MovieKids />}
+            />
+            <Route
+              path="/corporativo"
+              element={<Corporativo />}
+            />
+
+          </Routes>
+        </MovieSelectedProvider>
+      </NavProvider>
+    </NextUIProvider>
   )
 }

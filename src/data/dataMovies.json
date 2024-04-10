@@ -379,62 +379,170 @@
       {
         "title": "Duna: Parte dos",
         "date": "29 de febrero",
-        "img": "proximos/duna2.jpg"
+        "img": "proximos/duna2.jpg",
+        "category": ["Acción", "Aventura"],
+        "calificate":"Apta +15",
+        "duration":"2h 45min",
+        "distributor":"Warner Bros.",
+        "director":"Denis Villeneuve",
+        "actors":"Timothée Chalamet, Zendaya",
+        "description":"Un niño se convierte en el Mesías de los nómadas en un planeta desértico que tiene gusanos gigantes que protegen una mercancía llamada Spice. Spice convierte a las personas en viajeros, místicos y locos. ¿Qué precio pagará para convertirse en el nuevo gobernante de su universo?",
+        "banner": "proximos/duna2-banner.jpg",
+        "trailer": "https://www.youtube.com/embed/jg4-ErdQuXI?si=kEA3emK46zJyYYiP"
       },
       {
         "title": "Garra de Hierro",
         "date": "29 de febrero",
-        "img": "proximos/garra-de-hierro.jpg"
+        "img": "proximos/garra-de-hierro.jpg",
+        "category":["Drama", "Biografía"],
+        "calificate": "Apta +12",
+        "duration":"2h 10min",
+        "distributor":"MOVIE FILMS",
+        "director":"Sean Durkin",
+        "actors":"Harris Dickinson, Zac Efron",
+        "description":"La historia real de los inseparables hermanos Von Erich, que hicieron historia en el mundo intensamente competitivo de la lucha libre profesional a principios de la década de 1980.",
+        "banner":"proximos/garra-de-hierro-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/Xjf_HwNnxDM?si=4rYeymbP1QACdg6E"
       },
       {
         "title": "Mi Amigo Robot",
         "date": "29 de febrero",
-        "img": "proximos/amigo-robot.jpg"
+        "img": "proximos/amigo-robot.jpg",
+        "category":["Animación"],
+        "calificate": "Apta +9",
+        "duration":"1h 40min",
+        "distributor":"No hay información.",
+        "director":"Pablo Berger",
+        "actors":"No hay información",
+        "description":"1 nominación al Oscar. DOG vive en Manhattan y está cansado de estar solo. Un día decide comprarse un robot para que lo acompañe, con el que entabla una estrecha amistad bailando al ritmo del Nueva York de los años 80. Una noche de verano DOG se ve obligado a abandonar a su amigo robot en la playa. ¿Podrán volver a encontrarse?",
+        "banner":"proximos/amigo-robot-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/Eo6QSKrHclQ?si=XaNh3W1uHGf-LYLk"
       },
       {
         "title": "Imaginario Juguete Diabólico",
         "date": "7 de marzo",
-        "img": "proximos/imaginario.jpg"
+        "img": "proximos/imaginario.jpg",
+        "category":["Terror"],
+        "calificate": "Sin calificar",
+        "duration":"1h 45min",
+        "distributor":"MOVIE FILMS",
+        "director":"Jeff Wadlow",
+        "actors":"DeWanda Wise, Tom Payne",
+        "description":"Una mujer regresa a la casa de su infancia para descubrir que el amigo imaginario que dejó atrás es muy real y está descontento por haberlo abandonado.",
+        "banner":"proximos/imaginario-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/x1JklltvwGo?si=lzrESeZBoCVHSBsG"
       },
       {
         "title": "Kung Fu Panda 4",
         "date": "7 de marzo",
-        "img": "proximos/kung-fu-panda-4.jpg"
+        "img": "proximos/kung-fu-panda-4.jpg",
+        "category":["Animación"],
+        "calificate": "Sin calificar",
+        "duration":"1h 35min",
+        "distributor":"UNIVERSAL",
+        "director":"Mike Mitchell",
+        "actors":"No hay información",
+        "description":"Después de tres aventuras desafiando a la muerte y derrotando a villanos de clase mundial con su incomparable coraje y sus alocadas habilidades en las artes marciales, Po, el Guerrero Dragón, es llamado por el destino para... tomarse un descanso. Específicamente, se le pide que se convierta en el líder espiritual del Valle de la Paz. Esto plantea un par de problemas obvios. En primer lugar, Po sabe tanto de liderazgo espiritual como de dieta paleo, y en segundo lugar, necesita encontrar y entrenar rápidamente a un nuevo Guerrero Dragón antes de poder asumir su nuevo y elevado cargo. Y lo peor, recientemente se ha avistado a una malvada y poderosa líder criminal, La Camaleona, una pequeña reptil que puede transformarse en cualquier criatura, grande o chica. Y La Camaleona ha puesto sus avariciosos y brillantes ojos en el Bastón de la Sabiduría de Po, que le daría el poder de volver a convocar a todos los maestros villanos que Po ha derrotado en el reino de los espíritus.",
+        "banner":"proximos/kung-fu-panda-4-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/kg3Q63gzF6I?si=DB82cQow9Ifo6Ec3"
       },
       {
         "title": "Zona de Interés",
         "date": "7 de marzo",
-        "img": "proximos/zona-de-interes.jpg"
+        "img": "proximos/zona-de-interes.jpg",
+        "category":["Drama", "Historia", "Guerra"],
+        "calificate": "Apta +12",
+        "duration":"1h 45min",
+        "distributor":"LIFE FILMS",
+        "director":"Jonathan Glazer",
+        "actors":"Christian Friedel, Sandra Huller",
+        "description":"5 nominaciones al Oscar. El comandante de Auschwitz, Rudolf Höss, y su esposa Hedwig, se esfuerzan por construir una vida de ensueño para su familia en una casa y un jardín junto al campo.",
+        "banner":"proximos/zona-de-interes-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/Btm0t6YAzfA?si=23eK6F0ax_E8OnVo"
       },
       {
         "title": "Después de la Muerte",
         "date": "14 de marzo",
-        "img": "proximos/despues-de-la-muerte.jpg"
+        "img": "proximos/despues-de-la-muerte.jpg",
+        "category":["Documental"],
+        "calificate": "Sin calificar",
+        "duration":"1h 45min",
+        "distributor":"MOVIE FILMS",
+        "director":"Stephen Gray",
+        "actors":"No hay información",
+        "description":"Basada en experiencias reales cercanas a la muerte; explora el más allá de la mano de autores del New York Times, expertos médicos, científicos y supervivientes que arrojan luz sobre lo que nos espera.",
+        "banner":"proximos/despues-de-la-muerte-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/oyLh-oKscco?si=vwfoJQKYvNVnJvTc"
       },
       {
         "title": "El Hombre de los Sueños",
         "date": "14 de marzo",
-        "img": "proximos/hombre-de-los-sueños.jpg"
+        "img": "proximos/hombre-de-los-sueños.jpg",
+        "category":["Comedia"],
+        "calificate": "Apta +12",
+        "duration":"1h 40min",
+        "distributor":"MOVIE FILMS",
+        "director":"Kristoffer Borgli",
+        "actors":"Lily Bird, Nicolas Cage",
+        "description":"La vida de un desventurado padre de familia da un vuelco cuando millones de extraños empiezan a verle en sueños. Cuando sus apariciones nocturnas toman un cariz de pesadilla, Paul se ve obligado a lidiar con su nuevo estrellato.",
+        "banner":"proximos/hombre-de-los-sueños-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/XxaPXjFodGE?si=9bBlFXXpZ_IIWwa1"
       },
       {
         "title": "Atrapados en lo Profundo",
         "date": "21 de marzo",
-        "img": "proximos/atrapados-en-lo-profundo.jpg"
+        "img": "proximos/atrapados-en-lo-profundo.jpg",
+        "category":["Acción", "Aventura"],
+        "calificate": "Sin calificar",
+        "duration":"1h 30min",
+        "distributor":"LIFE FILMS",
+        "director":"Claudio Fah",
+        "actors":"Colm Meaney, Phyllis Logan",
+        "description":"Un grupo de vacacionistas se ve unido por el destino cuando el avión en el que viajan se desploma en el mar a causa de la explosión de una turbina al impactar en el aire contra una parvada. La tragedia se torna aún más aterradora cuando el avion queda suspendido en un peligroso risco submarino. Con el oxígeno disminuyendo rápidamente, los sobrevivientes se ven atrapados en una carrera contrarreloj por la vida, enfrentándose a peligros mortales mientras luchan por mantenerse a flote dentro de una reducida burbuja de aire. La amenaza más aterradora aún está por llegar: hambrientos tiburones rodean el avión, convirtiendo la lucha por sobrevivir en una pesadilla en lo profundo del mar. Cada decisión que tomen determinará quién vive y quién muere.",
+        "banner":"proximos/atrapados-en-lo-profundo-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/C6OYp0Wks3U?si=oBRl8yXBLOju_5Zd"
       },
       {
         "title": "Ghostbusters Apocalipsis Fantasma",
         "date": "21 de marzo",
-        "img": "proximos/ghostbusters-apocalipsis-fantasma.jpg"
+        "img": "proximos/ghostbusters-apocalipsis-fantasma.jpg",
+        "category":["Aventura", "Comedia", "Fantasía"],
+        "calificate": "Sin calificar",
+        "duration":"1h 40min",
+        "distributor":"SONY PICTURES",
+        "director":"Gil Kenan",
+        "actors":"Carrie Coon, Mckenna Grace",
+        "description":"La familia Spengler regresa al lugar donde empezó todo -el icónico cuartel de bomberos de Nueva York- para formar equipo con los Ghostbusters originales, que han desarrollado un laboratorio de investigación ultrasecreto para llevar la caza de fantasmas al siguiente nivel. Pero cuando el descubrimiento de un antiguo artefacto desata una fuerza maligna, los Ghostbusters nuevos y originales deben unir sus fuerzas para proteger su hogar y salvar al mundo de una segunda Edad de Hielo.",
+        "banner":"proximos/ghostbusters-apocalipsis-fantasma-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/k2iTid4z2rY?si=PvGTV_0peYLuwxUR"
       },
       {
         "title": "Luca",
         "date": "21 de marzo",
-        "img": "proximos/luca.jpg"
+        "img": "proximos/luca.jpg",
+        "category":["Animación"],
+        "calificate": "Sin calificar",
+        "duration":"1h 35min",
+        "distributor":"DISNEY",
+        "director":"Enrico Casarosa",
+        "actors":"No hay información",
+        "description":"En la Riviera italiana, una amistad tan fuerte como inesperada surge entre un ser humano y un monstruo marino camuflado como tal.",
+        "banner":"proximos/luca-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/te3CYmRBUh0?si=SvVmjv7Q5D_mHyBc"
       },
       {
         "title": "Todos Somos Extraños",
         "date": "21 de marzo",
-        "img": "proximos/todos-somos-extraños.jpg"
+        "img": "proximos/todos-somos-extraños.jpg",
+        "category":["Drama"],
+        "calificate": "Sin calificar",
+        "duration":"1h 45min",
+        "distributor":"20th CENTURY STUDIOS",
+        "director":"Andrew Haigh",
+        "actors":"Andrew Scott, Paul Mescal",
+        "description":"Una noche, en su torre de departamentos casi vacía en el Londres contemporáneo, Adam tiene un encuentro casual con un misterioso vecino, Harry, que rompe el ritmo de su vida cotidiana. A medida que se desarrolla una relación entre ellos, Adam se preocupa por los recuerdos del pasado y se siente atraído de vuelta a la ciudad suburbana donde creció, y al hogar de su infancia donde sus padres, parecen estar viviendo, tal como estaban el día en que murieron, 30 años antes.",
+        "banner":"proximos/todos-somos-extraños-banner.jpg",
+        "trailer":"https://www.youtube.com/embed/9IIGtoSJ4Ic?si=bI0YT-RuvhAlqUWj"
       }  
     ]
   }

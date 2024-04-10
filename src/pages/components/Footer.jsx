@@ -24,7 +24,7 @@ export const Footer = () => {
       <div className="flex mx-auto relative max-md:flex-wrap justify-center mb-10">
         <Link
           className="mx-2 text-white p-3 flex w-fit rounded-full border-2 max-md:mx-1
-              border-darkpink text-opacity-80 border-opacity-80 hover:bg-darkpink hover:bg-opacity-50"
+              border-darkpink text-opacity-80 border-opacity-70 hover:bg-darkpink hover:bg-opacity-50"
         >
           <EmailIcon />
         </Link>
@@ -59,7 +59,7 @@ export const Footer = () => {
           <XIcon />
         </Link>
         <div className="flex my-auto md:absolute max-md:mt-8 top-10 right-6">
-          <p className="flex text-center text-gray-200">Diseño por</p>
+          <p className="flex text-center text-gray-200">Desarrollado por</p>
           <a href="https://nicolassequeira11.github.io/portafolio/" target="_blank" className="flex">
             <img src={LogoNS} className="w-[2rem] object-content ms-2" />
           </a>
