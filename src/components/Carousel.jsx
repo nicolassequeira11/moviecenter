@@ -106,6 +106,8 @@ export const CarouselMovies = ({array, handleMovieSelected}) => {
       {
         breakpoint: 640, 
         settings: {
+          arrows: false,
+          className: "mx-auto",
           slidesToShow: 2,
           slidesToScroll: 2,
         }
