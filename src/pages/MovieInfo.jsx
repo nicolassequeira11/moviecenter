@@ -1,13 +1,22 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { ModalTrailer } from "../components/Modal";
 import ScheduleIcon from "@mui/icons-material/Schedule";
 import { PrincipalButton } from "../components/Buttons";
 import { Footer } from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+import { NavContext } from "../context/NavContext";
 import { MovieSelectedContext } from "../context/MovieSelectedContext";
 
 export const MovieInfo = () => {
+  const { setIsNavClick } = useContext(NavContext);
   const { movieSelected } = useContext(MovieSelectedContext);
+
+  useEffect(() => {
+    setIsNavClick(false);
+    AOS.init({ duration: 1500 });
+  }, [])
 
   return (
     <div className="bg-gray2">
@@ -15,6 +24,8 @@ export const MovieInfo = () => {
         <div className="relative flex">
           <img
             src={movieSelected.banner}
+            data-aos="fade-zoom-in" 
+            data-aos-duration="1000"
             className="flex h-[37rem] max-md:h-[20rem] w-full object-cover"
           />
           {movieSelected.trailer &&

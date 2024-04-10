@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 // PROVIDERS
 import { NextUIProvider } from "@nextui-org/react";
@@ -27,6 +28,7 @@ export const App = () => {
     <NextUIProvider>
       <NavProvider>
         <MovieSelectedProvider>
+          <ScrollToTop />
           <Navbar />
 
           <Routes>
