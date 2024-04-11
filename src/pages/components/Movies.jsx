@@ -86,16 +86,16 @@ export const Movies = ({ handleChangeMovies, handleMovieSelected }) => {
                 text="Cartelera"
                 color="text-white"
                 shadow="shadow-xl"
-                rounded="rounded-s-full"
+                rounded="rounded-s-full w-6/12"
                 background="bg-gradient-to-tr to-lightpink from-pink-800"
               />
               <PrincipalButton
-                text="Próximos Estrenos"
+                text="Próximamente"
                 color="text-white hover:bg-opacity-60 hover:bg-darkpink"
                 shadow="shadow-xl"
                 rounded="rounded-e-full"
                 onClick={handleChangeMovies}
-                background="bg-gray2"
+                background="bg-gray2 w-6/12"
               />
             </div>
           </div>

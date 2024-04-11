@@ -21,7 +21,7 @@ export const MovieKids = () => {
           src={MovieKidsIMG} 
           data-aos="fade-zoom-in" 
           data-aos-duration="1000" 
-          className="w-6/12 max-md:w-11/12 max-md:h-[fit-content] max-md:mx-auto h-[80vh] object-contain object-top" 
+          className="w-6/12 max-md:w-11/12 max-lg:h-fit max-md:mx-auto h-[80vh] object-contain object-top" 
         />
         <div className="w-6/12 max-md:w-11/12 mx-auto max-md:mt-8">
 

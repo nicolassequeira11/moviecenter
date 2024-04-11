@@ -30,7 +30,7 @@ export const Tickets = ({className, onClickSnacks, onClickShop}) => {
   ]
 
   return (
-    <div className={`max-md:relative max-md:mt-8 max-md:z-0 max-md:w-11/12 w-3/12 
+    <div className={`max-md:relative max-md:mt-8 max-md:z-0 max-md:w-11/12 md:w-5/12 lg:w-3/12 
       max-md:mx-auto absolute z-10 md:top-20 md:right-5 ${className}`}
     >
       <div className="flex mb-2 font-semibold select-none">

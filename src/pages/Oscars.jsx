@@ -21,7 +21,7 @@ export const Oscars = () => {
     
     <div className="bg-black max-md:pt-14">
       <div 
-        className="w-6/12 max-md:w-11/12 mx-auto"
+        className="w-6/12 max-lg:w-11/12 mx-auto"
         data-aos="fade-zoom-in" 
         data-aos-duration="1000"
       >

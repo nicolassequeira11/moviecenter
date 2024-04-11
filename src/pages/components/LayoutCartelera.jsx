@@ -30,7 +30,7 @@ export const LayoutCartelera = ({dataArray, handleMovieSelected, title}) => {
           <LocalMoviesIcon className="my-auto scale-125 me-2" />
           {title}
         </h2>
-        <div className="w-7/12 max-md:w-11/12 mx-auto text-gray-200">
+        <div className="lg:w-7/12 max-md:w-11/12 md:w-10/12 mx-auto text-gray-200">
           {newData.map((item, index) => (
               <div 
                 key={index}           

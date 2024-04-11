@@ -21,7 +21,7 @@ export const Snacks = ({className, onClick, onClickTickets, onClickShop}) => {
   ];
 
   return (
-    <div className={`max-md:relative max-md:mt-8 max-md:z-0 max-md:w-11/12 w-3/12 max-md:mx-auto absolute z-20 md:top-20 md:right-5 ${className}`}>
+    <div className={`max-md:relative max-md:mt-8 max-md:z-0 max-md:w-11/12 md:w-5/12 lg:w-3/12 max-md:mx-auto absolute z-20 md:top-20 md:right-5 ${className}`}>
       <div className="flex mb-2 font-semibold select-none">
         <button 
           className="w-1/3 px-6 rounded-s-xl hover:bg-darkpink hover:bg-opacity-30 

@@ -21,21 +21,21 @@ export const Prices = () => {
           <MonetizationOnIcon className="my-auto scale-125 me-2" />
           Precios
         </h2>
-        <div className="mt-6 pb-6">
-          <h2 className="text-2xl border-b-2 border-darkpink">
+        <div className="mt-6 pb-6 only:md:text-2xl">
+          <h2 className="text-2xl only:md:text-3xl border-b-2 border-darkpink">
             Funciones
           </h2>
           <div className="flex flex-wrap mt-12 mx-4 text-center">
             <div className="w-1/3 max-md:w-full max-md:my-4">
-              <p className="text-lg">Funciones 2D</p>
+              <p className="text-lg only:md:text-2xl">Funciones 2D</p>
               <p>Todos los días: $430</p>
             </div>
             <div className="w-1/3 max-md:w-full max-md:my-4">
-              <p className="text-lg">Funciones 3D</p>
+              <p className="text-lg only:md:text-2xl">Funciones 3D</p>
               <p>Mayores de 60 años: todos los días $390</p>
             </div>
             <div className="w-1/3 max-md:w-full max-md:my-4">
-              <p className="text-lg">Funciones 4D E-Motion</p>
+              <p className="text-lg only:md:text-2xl">Funciones 4D E-Motion</p>
               <p>Todos los días: $690</p>
             </div>
           </div>
@@ -43,7 +43,6 @@ export const Prices = () => {
         <PriceComponente 
           array={prices[0].prices[1].Snacks}
           title="Snacks"
-          width=""
         />
 
       </div>

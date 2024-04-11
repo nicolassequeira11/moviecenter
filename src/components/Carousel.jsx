@@ -26,7 +26,7 @@ export const Carousel = ({array}) => {
             className="h-[39rem] mx-auto object-cover w-full flex" 
           />
           <h2 
-            className="text-white font-bold text-6xl absolute z-10 top-[84%] ms-10"
+            className="text-white font-bold lg:text-6xl md:text-4xl absolute z-10 lg:top-[84%] md:top-[90%] md:ms-6 lg:ms-10"
           >
             {item.name}
           </h2>

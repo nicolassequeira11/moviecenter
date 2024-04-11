@@ -23,10 +23,10 @@ export const Corporativo = () => {
   return(
     <div className="bg-gray1">
       <div className="relative bg-gray1">
-        <img src={Background} className="opacity-40 max-md:h-[70vh]" />
+        <img src={Background} className="opacity-40 max-md:h-[95vh] md:h-[45vh] lg:h-[95vh]" />
         <div className="text-white absolute left-0 right-0 top-[0] bottom-[0] justify-center flex flex-col text-center z-10">
           <div 
-            className="border-4 border-darkpink p-6 bg-black bg-opacity-80 w-7/12 max-md:w-[80vw] mx-auto"
+            className="border-4 border-darkpink p-6 bg-black bg-opacity-80 w-7/12 max-lg:w-[80vw] mx-auto"
           >
             <h2 className="text-4xl font-bold mb-4">
               Entradas corporativas

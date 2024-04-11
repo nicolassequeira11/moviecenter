@@ -19,15 +19,15 @@ export const Proximos = ({ handleChangeMovies, isHovered, setIsHovered, handleMo
             <PrincipalButton
               text="Cartelera"
               color="text-white hover:bg-opacity-60 hover:bg-darkpink"
-              shadow="shadow-xl"
+              shadow="shadow-xl w-6/12"
               rounded="rounded-s-full"
               onClick={handleChangeMovies}
               background="bg-gray"
             />
             <PrincipalButton
-              text="Próximos Estrenos"
+              text="Próximamente"
               color="text-white"
-              shadow="shadow-xl"
+              shadow="shadow-xl w-6/12"
               rounded="rounded-e-full"
               background="bg-gradient-to-tr to-lightpink from-pink-800"
             />

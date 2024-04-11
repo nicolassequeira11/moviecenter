@@ -60,16 +60,16 @@ export const SnackItem = () => {
 
   return(
     <div className="flex flex-wrap h-fit">
-      <div className="w-full max-md:flex-col max-md:mb-4 max-md:-top-1 flex sticky top-0 bg-gray3 h-fit">
+      <div className="w-full max-md:flex-col md:py-2 max-md:mb-4 max-lg:-top-1 flex sticky top-0 bg-gray2 h-fit">
         <h2 className="text-white w-3/12 max-md:w-full max-md:mx-auto flex py-5 text-4xl max-md:text-2xl">
           <LocalDrinkIcon className="my-auto scale-125 me-2" />
             <p className="my-auto">Snacks</p>
         </h2>
-        <div className="my-auto w-9/12 max-md:w-full max-md:border-b-2 max-md:border-darkpink max-md:flex-wrap max-md:mx-auto flex">
+        <div className="my-auto w-9/12 max-md:w-full md:justify-center md:w-full md:flex-wrap max-md:border-b-2 max-md:border-darkpink max-md:flex-wrap max-md:mx-auto flex">
           {snacks.map((item, index) => (
-            <div key={index} className="mx-1 max-md:hidden max-md:my-1 max-md:mx-auto">
+            <div key={index} className="mx-1 md:m-1 max-md:hidden max-md:my-1 max-md:mx-auto">
               <PrincipalButton
-                className="bg-gray3 border-2 border-darkpink"
+                className="bg-gray2 border-2 border-darkpink"
                 text={item.name}
                 color="text-white hover:bg-opacity-60 hover:bg-darkpink"
                 onClick={() => {

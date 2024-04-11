@@ -16,7 +16,7 @@ export const Checkout = () => {
   }, [])
 
   return(
-    <div className="bg-gray3 overflow-hidden h-full">
+    <div className="bg-gray2 overflow-hidden h-full">
       <div className="pt-16 mx-auto h-screen flex flex-col max-md:flex">
         <div className="flex">
           <div className="w-9/12 max-md:w-full flex flex-wrap px-8 h-fit">

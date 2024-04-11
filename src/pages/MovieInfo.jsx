@@ -68,7 +68,7 @@ export const MovieInfo = () => {
 
         {/* Movie details */}
         <div className="flex max-md:flex-col-reverse flex-wrap text-gray-200 w-11/12 mx-auto">
-          <div className="w-8/12 max-md:w-full">
+          <div className="w-8/12 max-md:w-full mb-10">
             <div className="mt-7 mb-3 mx-auto">
               <p className="text-3xl mb-2 font-semibold">Descripción</p>
               <p>{movieSelected.description}</p>
@@ -109,10 +109,10 @@ export const MovieInfo = () => {
             </div>
           </div>
           <div className="w-4/12 max-md:w-full flex max-md:justify-center justify-end">
-            <div className="max-md:p-1 p-5 md:pe-0 max-md:full max-md:w-full w-10/12">
+            <div className="max-md:p-1 p-5 md:pe-0 max-md:full max-md:w-full w-10/12 md:w-full">
               <img
                 src={movieSelected.img}
-                className="h-[550px] w-full object-cover rounded-lg"
+                className="h-[550px] md:h-[400px] w-full object-cover rounded-lg"
               />
             </div>
           </div>
